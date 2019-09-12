@@ -1,1 +1,1 @@
-include ':app', ':AspectJLib', ':BaseLib', ':ViewLib', ':UtilsLib'
+include ':app', ':AspectJLib', ':BaseLib', ':UtilsLib', ':Blelib', ':blemodule', ':Function1', ':Function2', ':Login', ':function1app', ':demo', ':JavaTestLIb'

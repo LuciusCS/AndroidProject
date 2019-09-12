@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/send_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发送试探帧"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="18sp"
+            android:background="@color/colorAccent"
+            />
+
+        <!--发送断路器认证帧-->
+        <TextView
+            android:id="@+id/confirm_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:layout_constraintLeft_toLeftOf="@+id/send_info"
+            app:layout_constraintTop_toBottomOf="@+id/send_info"
+            android:textSize="18sp"
+            android:text="断路器认证"
+            />
+
+        <!--用于主模块获取断路器地址-->
+        <TextView
+            android:id="@+id/get_breaker_address_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="断路器地址"
+            android:textSize="18sp"
+            app:layout_constraintLeft_toLeftOf="@+id/confirm_tv"
+            app:layout_constraintTop_toBottomOf="@+id/confirm_tv"
+            />
+
+        <!--蓝牙搜索-->
+        <TextView
+            android:id="@+id/search_connect_ble_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="蓝牙搜索连接"
+            app:layout_constraintLeft_toLeftOf="@+id/get_breaker_address_tv"
+            app:layout_constraintTop_toBottomOf="@+id/get_breaker_address_tv"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
