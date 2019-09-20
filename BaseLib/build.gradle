@@ -24,10 +24,34 @@ android {
 
     }
 
+    //用于在Debug模式下使用正式签名
+    signingConfigs {
+        release {
+            //.jks文件放在项目目录（app目录）
+            storeFile file("baselib.jks")//签名文件名
+            storePassword"123456lL"//密码
+            keyAlias"key0"//别名
+            keyPassword"123456lL"//密码
+
+        }
+
+        debug {
+            storeFile file("baselib.jks")
+            storePassword"123456lL"
+            keyAlias"key0"//别名
+            keyPassword"123456lL"
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+        debug {
+            signingConfig signingConfigs.release
+
         }
     }
 
@@ -50,6 +74,16 @@ android {
 //        }
 
     }
+
+//    引入JNI
+    externalNativeBuild {
+        cmake {
+            version "3.10.2"
+            path file('src/main/cpp/CMakeLists.txt')
+        }
+    }
+
+
 
 
 }
