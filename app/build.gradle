@@ -69,10 +69,7 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'com.android.support:design:28.0.0'
     implementation group: 'javax.annotation', name: 'javax.annotation-api', version: '1.3.2'
-    //添加依赖的工程
-    implementation project(":Login")
-    implementation project(":Function1")
-    implementation project(":Function2")
+
 
 
 }

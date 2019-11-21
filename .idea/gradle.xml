@@ -3,9 +3,6 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <compositeConfiguration>
-          <compositeBuild compositeDefinitionSource="SCRIPT" />
-        </compositeConfiguration>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
@@ -13,12 +10,17 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/AspectJLib" />
             <option value="$PROJECT_DIR$/BaseLib" />
+            <option value="$PROJECT_DIR$/Blelib" />
+            <option value="$PROJECT_DIR$/Blemodule" />
+            <option value="$PROJECT_DIR$/JavaTestLIb" />
             <option value="$PROJECT_DIR$/UtilsLib" />
-            <option value="$PROJECT_DIR$/ViewLib" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/demo" />
+            <option value="$PROJECT_DIR$/kbaselib" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
+        <option name="testRunner" value="PLATFORM" />
       </GradleProjectSettings>
     </option>
   </component>

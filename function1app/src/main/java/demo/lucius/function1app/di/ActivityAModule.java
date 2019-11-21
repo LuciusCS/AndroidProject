@@ -7,5 +7,5 @@ public interface ActivityAModule {
 
     @ContributesAndroidInjector(modules = {FragmentAModule.class})
     @FragmentScope
-    FragmentA provideFragmentA();
+    abstract FragmentA provideFragmentA();
 }

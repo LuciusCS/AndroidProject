@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/check_signature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="签名文件验证"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+</layout>

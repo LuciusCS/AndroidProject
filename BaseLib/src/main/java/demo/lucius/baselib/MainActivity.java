@@ -1,6 +1,7 @@
 package demo.lucius.baselib;
 
 import android.bluetooth.BluetoothAdapter;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.location.LocationManager;
 import android.os.Bundle;
@@ -14,11 +15,14 @@ import androidx.core.app.ActivityCompat;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.concurrent.ExecutionException;
 
 import demo.lucius.baselib.utils.permission.method1.PermissionUtils;
+import demo.lucius.baselib.utils.time.NetTimeUtils;
 import demo.lucius.utilslib.log.LogUtils;
 
 public class MainActivity extends AppCompatActivity {
+
     private BluetoothAdapter bluetoothAdapter;
 
     // Used to load the 'native-lib' library on application startup.
@@ -44,6 +48,8 @@ public class MainActivity extends AppCompatActivity {
 
             }
         }
+
+//        LogUtils.printInfo(getSignature());
 
 
         //用于点击事件获取权限
@@ -82,6 +88,17 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        findViewById(R.id.remain_time_tv).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                SharedPreferences sharedPreferences = getSharedPreferences("allow_user_time", MODE_PRIVATE);
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+                int time = sharedPreferences.getInt("allow_time", 0);
+                LogUtils.printInfo("输出剩余时间"+time);
+            }
+        });
+
     }
 
     //用户申请权限回调方法
@@ -102,4 +119,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public native String stringFromJNI();
+
+        public native String getSignature();
 }

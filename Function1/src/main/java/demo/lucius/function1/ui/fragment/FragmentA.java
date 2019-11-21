@@ -22,7 +22,7 @@ import demo.lucius.function1.ui.navigation.Function1Navigation;
 
 import javax.inject.Inject;
 
-public class FragmentA extends DaggerFragment {
+public class FragmentA extends Fragment {
 
 
     //用于表示Databinding
