@@ -28,7 +28,7 @@ android {
     signingConfigs {
         release {
             //.jks文件放在项目目录（app目录）
-            storeFile file("H:/Project/Github/AndroidProject/BaseLib/baselib.jks")//签名文件名
+//            storeFile file("H:/Project/Github/AndroidProject/BaseLib/baselib.jks")//签名文件名
             storePassword"123456lL"//密码
             keyAlias"key1"//别名
             keyPassword"123456lL"//密码
@@ -36,7 +36,7 @@ android {
         }
 
         debug {
-            storeFile file("H:/Project/Github/AndroidProject/BaseLib/baselib.jks")
+//            storeFile file("H:/Project/Github/AndroidProject/BaseLib/baselib.jks")
             storePassword"123456lL"
             keyAlias"key1"//别名
             keyPassword"123456lL"
