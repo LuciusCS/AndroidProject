@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         })
 
         hello.setOnClickListener{
-            Log.i("++","+++")
+            Log.i("++","+++++++++")
         }
 
     }
