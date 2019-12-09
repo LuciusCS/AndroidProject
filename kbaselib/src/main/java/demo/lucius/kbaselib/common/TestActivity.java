@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -25,7 +26,7 @@ public class TestActivity extends AppCompatActivity {
     private ActivityTestBinding activityTestBinding;
 
     //用于表示需要进行显示的数据
-    private List<String>showList;
+    private List<String>showList=new ArrayList<>();
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -35,22 +36,22 @@ public class TestActivity extends AppCompatActivity {
         for (int i=0;i<10;i++){
             showList.add(i+"+++++++");
 
-            new Thread(()->System.out.println("+++00")).start();
+//            new Thread(()->System.out.println("+++00")).start();
         }
-//        TestAdapter testAdapter = new TestAdapter(showList){};
+//        TestAdapter testAdapter = new TestAdapter(showList);
 
-        Button button=(Button)findViewById(R.id.button1);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Log.i("info","点击");
-            }
-        });
-        button.setOnClickListener((e)->{
-            Log.i("info","点击");
-        });
-
-        Map<String,String>map=new HashMap<>();
+//        Button button=(Button)findViewById(R.id.button1);
+//        button.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Log.i("info","点击");
+//            }
+//        });
+//        button.setOnClickListener((e)->{
+//            Log.i("info","点击");
+//        });
+//
+//        Map<String,String>map=new HashMap<>();
 
 
     }

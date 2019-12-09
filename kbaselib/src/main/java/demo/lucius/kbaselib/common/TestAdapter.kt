@@ -8,7 +8,7 @@ import com.android.example.github.ui.common.DataBoundListAdapter
 import demo.lucius.kbaselib.R
 import demo.lucius.kbaselib.databinding.ItemInfoBinding
 
-class TestAdapter(private val infos: List<String>,
+class TestAdapter(
                   private val clickCallback: ((String) -> Unit?)
 ) : DataBoundListAdapter<String, ItemInfoBinding>(diffCallback = object : DiffUtil.ItemCallback<String>() {
     override fun areItemsTheSame(oldItem: String, newItem: String): Boolean {

@@ -1,1 +1,1 @@
-include ':app', ':AspectJLib', ':BaseLib', ':UtilsLib', ':Blelib', ':blemodule',  ':demo', ':JavaTestLIb', ':kbaselib'
+include ':app', ':AspectJLib', ':BaseLib', ':UtilsLib', ':Blelib', ':blemodule',  ':JavaTestLIb', ':kbaselib', ':daggerlib'

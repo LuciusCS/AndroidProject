@@ -122,5 +122,11 @@ dependencies {
     //用于引入Utils
     implementation project(":UtilsLib")
 
+    //引入Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+
+    //使用OkHttp官方拦截器打印请求以及返回结果
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.3.1'
 
 }
