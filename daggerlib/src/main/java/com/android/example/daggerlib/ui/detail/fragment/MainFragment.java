@@ -25,12 +25,12 @@ import com.android.example.daggerlib.db.UserDao;
 import javax.inject.Inject;
 
 import dagger.android.AndroidInjector;
-import dagger.android.DaggerFragment;
 import dagger.android.DispatchingAndroidInjector;
 import dagger.android.HasFragmentInjector;
 import dagger.android.support.AndroidSupportInjection;
+import dagger.android.support.DaggerFragment;
 
-public class MainFragment extends Fragment  {
+public class MainFragment extends DaggerFragment  {
 
 
 //    @Inject

@@ -14,10 +14,12 @@ import javax.inject.Inject;
 
 import dagger.android.AndroidInjection;
 import dagger.android.AndroidInjector;
+import dagger.android.DaggerActivity;
 import dagger.android.DispatchingAndroidInjector;
+import dagger.android.support.DaggerAppCompatActivity;
 import dagger.android.support.HasSupportFragmentInjector;
 
-public class MainActivity extends AppCompatActivity implements HasSupportFragmentInjector {
+public class MainActivity extends DaggerAppCompatActivity {
 
     @Inject
     DispatchingAndroidInjector<Fragment> dispatchingAndroidInjector;
@@ -37,11 +39,12 @@ public class MainActivity extends AppCompatActivity implements HasSupportFragmen
         AndroidInjection.inject(this);
         setContentView(R.layout.activity_main);
         getSupportFragmentManager().beginTransaction().replace(R.id.container, mainFragment).commitAllowingStateLoss();
+        bean.printInfo();
     }
 
-    @Override
-    public AndroidInjector<Fragment> supportFragmentInjector() {
-        bean.printInfo();
-        return dispatchingAndroidInjector;
-    }
+//    @Override
+//    public AndroidInjector<Fragment> supportFragmentInjector() {
+//        bean.printInfo();
+//        return dispatchingAndroidInjector;
+//    }
 }
