@@ -1,7 +1,7 @@
 package com.android.example.daggerlib.di;
 
 
-import com.android.example.daggerlib.ui.detail.fragment.DetailFragment;
+import com.android.example.daggerlib.ui.detail.fragment.MainFragment;
 
 import dagger.Module;
 import dagger.android.ContributesAndroidInjector;
@@ -10,5 +10,5 @@ import dagger.android.ContributesAndroidInjector;
 public abstract class FragmentBuildersModule {
 
     @ContributesAndroidInjector
-    abstract DetailFragment contributeDetailFragment();
+    abstract MainFragment contributeDetailFragment();
 }

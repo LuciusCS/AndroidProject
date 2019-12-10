@@ -15,14 +15,14 @@ import javax.inject.Singleton;
 import dagger.Module;
 import dagger.Provides;
 
-@Module(includes = ViewModelModule.class)
+@Module(includes = DbModule.class)
 public class AppModule {
 
-//    @Provides
-//    @Singleton
-//    public Context provideContext(Application application) {
-//        return application;
-//    }
+    @Provides
+    @Singleton
+    public Context provideContext(Application application) {
+        return application;
+    }
 
     //用于注入DB单例
 
@@ -33,11 +33,6 @@ public class AppModule {
         return Room.databaseBuilder(application, UserDb.class, "user.db").build();
     }
 
-    //用于注入UserDao
-    @Singleton
-    @Provides
-    public UserDao provideUserDao(UserDb userDb){
-        return userDb.userDao();
-    }
+
 
 }

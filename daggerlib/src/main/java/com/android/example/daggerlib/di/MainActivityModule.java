@@ -1,21 +1,27 @@
 package com.android.example.daggerlib.di;
 
 
+import com.android.example.daggerlib.bean.Bean;
 import com.android.example.daggerlib.di.FragmentBuildersModule;
 import com.android.example.daggerlib.ui.detail.activity.MainActivity;
+import com.android.example.daggerlib.ui.detail.fragment.MainFragment;
 
 import dagger.Module;
+import dagger.Provides;
 import dagger.android.ContributesAndroidInjector;
 
 @Module
-public abstract class MainActivityModule {
+public class MainActivityModule {
 
-//    @Provides
-//    Repo provideRepo(UserDao userDao ) {
-//        return new Repo(userDao);
-//    }
+    @Provides
+    public Bean provide(){
+        return new Bean();
+    }
 
-    @ContributesAndroidInjector(modules = FragmentBuildersModule.class)
-    abstract MainActivity contributeMainActivity();
+    @Provides
+    MainFragment provideFragment(){
+        return new MainFragment();
+    }
+
 
 }

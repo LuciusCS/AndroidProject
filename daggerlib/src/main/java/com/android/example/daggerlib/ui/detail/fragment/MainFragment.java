@@ -3,6 +3,7 @@ package com.android.example.daggerlib.ui.detail.fragment;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,19 +17,30 @@ import androidx.lifecycle.ViewModelProviders;
 
 
 import com.android.example.daggerlib.R;
+import com.android.example.daggerlib.bean.Bean;
 import com.android.example.daggerlib.databinding.FragmentDetailBinding;
+import com.android.example.daggerlib.db.User;
+import com.android.example.daggerlib.db.UserDao;
 
 import javax.inject.Inject;
 
+import dagger.android.AndroidInjector;
+import dagger.android.DaggerFragment;
+import dagger.android.DispatchingAndroidInjector;
+import dagger.android.HasFragmentInjector;
 import dagger.android.support.AndroidSupportInjection;
 
-public class DetailFragment extends Fragment {
+public class MainFragment extends Fragment  {
+
+
+//    @Inject
+//    DispatchingAndroidInjector<android.app.Fragment> childFragmentInjector;
 
     @Inject
-    ViewModelProvider.Factory viewModelFactory;
+    UserDao userDao;
 
-
-    private DetailViewModel detailViewModel;
+//    @Inject
+//    Bean bean;
 
     //用于获取DetailFragment实例
     FragmentDetailBinding fragmentDetailBinding;
@@ -38,32 +50,45 @@ public class DetailFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 //        return super.onCreateView(inflater, container, savedInstanceState);
         AndroidSupportInjection.inject(this);
-        fragmentDetailBinding= DataBindingUtil
+        fragmentDetailBinding = DataBindingUtil
                 .inflate(inflater, R.layout.fragment_detail, container, false);
 //        View view = inflater.inflate(R.layout.fragment_detail, container, false);
 
         fragmentDetailBinding.insertDateTv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                    detailViewModel.insertUser();
+//                    detailViewModel.insertUser();
+                new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        User user = new User("++++");
+                        userDao.insert(user);
+                        Log.i("++", "+++");
+                    }
+                }).start();
+
             }
+
+
         });
 
         fragmentDetailBinding.readDataTv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                detailViewModel.readUser();
+                new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        Log.i("++", userDao.getUsers().size() + "");
+
+                    }
+                }).start();
             }
         });
-
         return fragmentDetailBinding.getRoot();
     }
 
-    @Override
-    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
-        AndroidSupportInjection.inject(this);
-        detailViewModel = ViewModelProviders.of(this, viewModelFactory).get(DetailViewModel.class);
-    }
-
+//    @Override
+//    public AndroidInjector<android.app.Fragment> fragmentInjector() {
+//        return childFragmentInjector;
+//    }
 }

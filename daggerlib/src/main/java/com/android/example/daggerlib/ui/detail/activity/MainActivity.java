@@ -3,11 +3,12 @@ package com.android.example.daggerlib.ui.detail.activity;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
+import android.content.Context;
 import android.os.Bundle;
 
 import com.android.example.daggerlib.R;
-import com.android.example.daggerlib.db.UserDao;
-import com.android.example.daggerlib.ui.detail.fragment.DetailFragment;
+import com.android.example.daggerlib.bean.Bean;
+import com.android.example.daggerlib.ui.detail.fragment.MainFragment;
 
 import javax.inject.Inject;
 
@@ -21,20 +22,26 @@ public class MainActivity extends AppCompatActivity implements HasSupportFragmen
     @Inject
     DispatchingAndroidInjector<Fragment> dispatchingAndroidInjector;
 
+    @Inject
+    MainFragment mainFragment;
 
+    @Inject
+    Context context;
+
+    @Inject
+    Bean bean;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        getSupportFragmentManager().beginTransaction().replace(R.id.container, new DetailFragment()).commitAllowingStateLoss();
         AndroidInjection.inject(this);
+        setContentView(R.layout.activity_main);
+        getSupportFragmentManager().beginTransaction().replace(R.id.container, mainFragment).commitAllowingStateLoss();
     }
 
     @Override
     public AndroidInjector<Fragment> supportFragmentInjector() {
-        AndroidInjection.inject(this);
+        bean.printInfo();
         return dispatchingAndroidInjector;
     }
-
 }

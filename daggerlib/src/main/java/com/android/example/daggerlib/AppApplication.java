@@ -16,8 +16,6 @@ public class AppApplication extends Application implements HasActivityInjector {
     @Inject
     DispatchingAndroidInjector<Activity> activityDispatchingAndroidInjector;
 
-//    @Inject
-//    UserDao userDao;
 
     @Override
     public void onCreate() {
