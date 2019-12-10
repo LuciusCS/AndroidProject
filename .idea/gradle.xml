@@ -11,11 +11,15 @@
             <option value="$PROJECT_DIR$/AspectJLib" />
             <option value="$PROJECT_DIR$/BaseLib" />
             <option value="$PROJECT_DIR$/Blelib" />
-            <option value="$PROJECT_DIR$/Blemodule" />
             <option value="$PROJECT_DIR$/JavaTestLIb" />
             <option value="$PROJECT_DIR$/UtilsLib" />
             <option value="$PROJECT_DIR$/app" />
+<<<<<<< HEAD
             <option value="$PROJECT_DIR$/daggerlib" />
+=======
+            <option value="$PROJECT_DIR$/blemodule" />
+            <option value="$PROJECT_DIR$/demo" />
+>>>>>>> 02fd0eec8c9acabf18f5a9c4bd9413314826d7a4
             <option value="$PROJECT_DIR$/kbaselib" />
           </set>
         </option>
