@@ -37,7 +37,12 @@ public class MainFragment extends DaggerFragment  {
 //    DispatchingAndroidInjector<android.app.Fragment> childFragmentInjector;
 
     @Inject
-    UserDao userDao;
+    ViewModelProvider.Factory viewModelFactory;
+
+//    @Inject
+//    UserDao userDao;
+
+    private MainFragmentViewModel mainFragmentViewModel;
 
 //    @Inject
 //    Bean bean;
@@ -58,14 +63,15 @@ public class MainFragment extends DaggerFragment  {
             @Override
             public void onClick(View v) {
 //                    detailViewModel.insertUser();
-                new Thread(new Runnable() {
-                    @Override
-                    public void run() {
-                        User user = new User("++++");
-                        userDao.insert(user);
-                        Log.i("++", "+++");
-                    }
-                }).start();
+//                new Thread(new Runnable() {
+//                    @Override
+//                    public void run() {
+//                        User user = new User("++++");
+//                        userDao.insert(user);
+//                        Log.i("++", "+++");
+                        mainFragmentViewModel.insertUser();
+//                    }
+//                }).start();
 
             }
 
@@ -75,19 +81,27 @@ public class MainFragment extends DaggerFragment  {
         fragmentDetailBinding.readDataTv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                new Thread(new Runnable() {
-                    @Override
-                    public void run() {
-                        Log.i("++", userDao.getUsers().size() + "");
+//                new Thread(new Runnable() {
+//                    @Override
+//                    public void run() {
+//                        Log.i("++", userDao.getUsers().size() + "");
+                        mainFragmentViewModel.readUser();
 
-                    }
-                }).start();
+//                    }
+//                }).start();
             }
         });
         return fragmentDetailBinding.getRoot();
     }
 
-//    @Override
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        mainFragmentViewModel = ViewModelProviders.of(this, viewModelFactory).get(MainFragmentViewModel.class);
+
+    }
+
+    //    @Override
 //    public AndroidInjector<android.app.Fragment> fragmentInjector() {
 //        return childFragmentInjector;
 //    }
