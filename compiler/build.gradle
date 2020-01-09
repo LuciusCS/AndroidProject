@@ -1,0 +1,15 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(":annotation")
+
+    //通过类调用的形式来生成Java代码
+    implementation 'com.squareup:javapoet:1.7.0'
+    implementation 'com.google.guava:guava:19.0'
+    implementation 'com.google.auto.service:auto-service:1.0-rc2'   //使用AutoService注册我们的processor
+    annotationProcessor 'com.google.auto.service:auto-service:1.0-rc2'
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"
