@@ -20,6 +20,7 @@
             <option value="$PROJECT_DIR$/compiler" />
             <option value="$PROJECT_DIR$/daggerlib" />
             <option value="$PROJECT_DIR$/kbaselib" />
+            <option value="$PROJECT_DIR$/multilanguage" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
