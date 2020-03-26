@@ -1,0 +1,43 @@
+-- Merging decision tree log ---
+manifest
+ADDED from H:\Project\Github\AndroidProject\Login\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from H:\Project\Github\AndroidProject\Login\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from H:\Project\Github\AndroidProject\Login\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from H:\Project\Github\AndroidProject\Login\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from H:\Project\Github\AndroidProject\Login\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from H:\Project\Github\AndroidProject\Login\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from H:\Project\Github\AndroidProject\Login\src\main\AndroidManifest.xml:2:1-22:12
+	package
+		ADDED from H:\Project\Github\AndroidProject\Login\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from H:\Project\Github\AndroidProject\Login\src\main\AndroidManifest.xml
+		INJECTED from H:\Project\Github\AndroidProject\Login\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from H:\Project\Github\AndroidProject\Login\src\main\AndroidManifest.xml
+		ADDED from H:\Project\Github\AndroidProject\Login\src\main\AndroidManifest.xml:2:1-22:12
+		INJECTED from H:\Project\Github\AndroidProject\Login\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from H:\Project\Github\AndroidProject\Login\src\main\AndroidManifest.xml
+		ADDED from H:\Project\Github\AndroidProject\Login\src\main\AndroidManifest.xml:2:1-22:12
+		INJECTED from H:\Project\Github\AndroidProject\Login\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from H:\Project\Github\AndroidProject\Login\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from H:\Project\Github\AndroidProject\Login\src\main\AndroidManifest.xml:5:5-20:19
+activity#demo.lucius.login.LoginActivity
+ADDED from H:\Project\Github\AndroidProject\Login\src\main\AndroidManifest.xml:19:9-50
+	android:name
+		ADDED from H:\Project\Github\AndroidProject\Login\src\main\AndroidManifest.xml:19:19-48
+uses-sdk
+INJECTED from H:\Project\Github\AndroidProject\Login\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from H:\Project\Github\AndroidProject\Login\src\main\AndroidManifest.xml
+INJECTED from H:\Project\Github\AndroidProject\Login\src\main\AndroidManifest.xml
+INJECTED from H:\Project\Github\AndroidProject\Login\src\main\AndroidManifest.xml
+INJECTED from H:\Project\Github\AndroidProject\Login\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from H:\Project\Github\AndroidProject\Login\src\main\AndroidManifest.xml
+		ADDED from H:\Project\Github\AndroidProject\Login\src\main\AndroidManifest.xml
+		INJECTED from H:\Project\Github\AndroidProject\Login\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from H:\Project\Github\AndroidProject\Login\src\main\AndroidManifest.xml
+		ADDED from H:\Project\Github\AndroidProject\Login\src\main\AndroidManifest.xml
+		INJECTED from H:\Project\Github\AndroidProject\Login\src\main\AndroidManifest.xml
