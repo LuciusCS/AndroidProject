@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">台区诊断助手</string>
+    <string name="title_home">Home</string>
+    <string name="title_feature1">Feature 1</string>
+    <string name="title_feature2">Feature 2</string>
+    <string name="home">Mode 2</string>
+</resources>

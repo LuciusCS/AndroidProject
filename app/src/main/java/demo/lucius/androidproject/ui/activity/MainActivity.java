@@ -12,6 +12,7 @@ import androidx.databinding.DataBindingUtil;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import demo.lucius.androidproject.BuildConfig;
 import demo.lucius.androidproject.R;
 import demo.lucius.androidproject.databinding.ActivityMainBinding;
 
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         activityMainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main);
+
 
     }
 

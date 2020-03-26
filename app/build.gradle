@@ -1,25 +1,101 @@
 apply plugin: 'com.android.application'
 
+//用于引入配置信息 config.gradle，别忘了在工程gradle中添加 apply from:"config.gradle"
+def androidId=rootProject.ext.androidId
+def mode1Id=rootProject.ext.mode1Id
+def mode2Id=rootProject.ext.mode2Id
+def upgradeUrl=rootProject.ext.upgradeUrl
+
+//用于获取当前的时间
+static def releaseTime(){
+    return new Date().format("yyyy-MM-dd-HH.mm",TimeZone.getTimeZone("GMT-8"))
+}
+
+
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "demo.lucius.androidproject"
+//        applicationId "demo.lucius.androidproject"
         minSdkVersion 24
         targetSdkVersion 28
-        versionCode 1
-        versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
+            //不显示打包log
+            buildConfigField( "boolean","LOG_DEBUG","false")
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug{
+            //显示打包log
+            buildConfigField( "boolean","LOG_DEBUG","true")
+            applicationIdSuffix ".debug"
+            debuggable true
+
         }
     }
 
     //使用databinding
     dataBinding {
         enabled = true
+    }
+
+    flavorDimensions "mode1"
+
+    productFlavors{
+        mode1{
+            applicationId mode1Id.applicationId
+            versionCode mode1Id.versionCode
+            versionName mode1Id.versionName
+            dimension "mode1"
+            applicationIdSuffix ".mode1"
+            versionNameSuffix "_mode1"
+            //用于配置升级的url
+            buildConfigField "String","upgradeUrl","\"${upgradeUrl.mode1Upgrade}\""
+
+            //不同渠道在资源文件中添加不同的字段，可直接通过@string/modeTest调用
+            resValue("string","modeTest","mode1")
+
+
+
+            //用于配置mainfest中的信息
+            manifestPlaceholders=[
+                    aMapId: "13414332",
+                    //配置不同的应用名称和图片
+                    app_icon: "@mipmap/ic_launcher",
+                    app_name: "mode1"
+            ]
+        }
+        mode2{
+            applicationId mode2Id.applicationId
+            versionCode mode2Id.versionCode
+            versionName mode2Id.versionName
+            dimension "mode1"
+            versionNameSuffix "_mode2"
+            applicationIdSuffix ".mode2"
+            buildConfigField( "String","upgradeUrl","\"${upgradeUrl.mode2Upgrade}\"")
+
+            //不同渠道在资源文件中添加不同的字段
+            resValue("string","modeTest","mode2")
+
+            //用于配置mainfest中的信息
+            manifestPlaceholders=[
+                    aMapId: "1341433ewewew2",
+                    //配置不同的应用名称和图片
+                    app_icon: "@mipmap/ic_launcher",
+                    app_name: "mode2"
+            ]
+        }
+    }
+
+    //打包时设置名称和时间，区分不同渠道包
+    applicationVariants.all{
+        variant->
+            variant.outputs.all{
+                outputFileName="${variant.productFlavors[0].name}-v${variant.productFlavors[0].versionName}-${releaseTime()}.apk"
+            }
     }
 
 }
@@ -69,6 +145,10 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'com.android.support:design:28.0.0'
     implementation group: 'javax.annotation', name: 'javax.annotation-api', version: '1.3.2'
+
+    //不同的渠道包依赖不同的版本
+    mode1Implementation  'com.google.dagger:dagger-android:2.17'
+    mode2Implementation   'com.google.dagger:dagger-android:2.17'
 
 
 

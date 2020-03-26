@@ -1,0 +1,38 @@
+//用于配置不同版本的打包信息
+
+ext {
+
+    //用于建立Map存储，对象名
+    androidId = [
+            compileSdkVersion: 29,
+            buildToolsVersion: "29.0.2",
+            applicationId    : "demo.lucius.androidproject",
+            minSdkVersion    : 24,
+            targetSdkVersion : 29,
+
+    ]
+
+    //用于表示mode1打包信息
+    mode1Id=[
+            "applicationId": "demo.lucius.androidproject.mode1",
+            versionCode      : 1,
+            versionName      : "1.0"
+    ]
+
+    //用于表示mode2打包信息
+    mode2Id=[
+
+            "applicationId": "demo.lucius.androidproject.mode2",
+            versionCode      : 1,
+            versionName      : "1.0"
+    ]
+
+
+    //用于表示升级用的url
+
+    upgradeUrl = [
+        "mode1Upgrade":"mode1Upgrade111111",
+        "mode2Upgrade":"mode2Upgrade2222222"
+
+    ]
+}
