@@ -20,7 +20,7 @@
 
         <meta-data
             android:name="amp"
-            android:value="${aMapId}"
+            android:bitMapValue="${aMapId}"
             />
 
     </application>

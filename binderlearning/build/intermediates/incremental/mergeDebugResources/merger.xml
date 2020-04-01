@@ -23,20 +23,20 @@
         
         <attr name="fontProviderFetchStrategy">
             
-            <enum name="blocking" value="0"/>
+            <enum name="blocking" bitMapValue="0"/>
             
-            <enum name="async" value="1"/>
+            <enum name="async" bitMapValue="1"/>
         </attr>
         
         <attr format="integer" name="fontProviderFetchTimeout">
             
-            <enum name="forever" value="-1"/>
+            <enum name="forever" bitMapValue="-1"/>
         </attr>
     </declare-styleable><declare-styleable name="FontFamilyFont">
         
         <attr name="fontStyle">
-            <enum name="normal" value="0"/>
-            <enum name="italic" value="1"/>
+            <enum name="normal" bitMapValue="0"/>
+            <enum name="italic" bitMapValue="1"/>
         </attr>
         
         <attr format="reference" name="font"/>
@@ -143,73 +143,73 @@
         
         <attr name="android:drawable"/>
     </declare-styleable></file><file name="abc_vector_test" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/744a6eff2bf17857c1a41b8ce8574da5/res/drawable/abc_vector_test.xml" qualifiers="" type="drawable"/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.constraintlayout:constraintlayout:1.1.3$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/lucius/.gradle/caches/transforms-2/files-2.1/e895c3abd941d2a24043f4d79569e245/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.constraintlayout:constraintlayout:1.1.3" from-dependency="true" generated-set="androidx.constraintlayout:constraintlayout:1.1.3$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/lucius/.gradle/caches/transforms-2/files-2.1/e895c3abd941d2a24043f4d79569e245/res"><file path="/home/lucius/.gradle/caches/transforms-2/files-2.1/e895c3abd941d2a24043f4d79569e245/res/values/values.xml" qualifiers=""><attr format="boolean" name="barrierAllowsGoneWidgets"/><attr format="enum" name="barrierDirection">
-        <enum name="left" value="0"/>
-        <enum name="right" value="1"/>
-        <enum name="top" value="2"/>
-        <enum name="bottom" value="3"/>
-        <enum name="start" value="5"/>
-        <enum name="end" value="6"/>
+        <enum name="left" bitMapValue="0"/>
+        <enum name="right" bitMapValue="1"/>
+        <enum name="top" bitMapValue="2"/>
+        <enum name="bottom" bitMapValue="3"/>
+        <enum name="start" bitMapValue="5"/>
+        <enum name="end" bitMapValue="6"/>
     </attr><attr format="boolean" name="chainUseRtl"/><attr format="reference" name="constraintSet"/><attr format="string" name="constraint_referenced_ids"/><attr format="reference" name="content"/><attr name="emptyVisibility">
-        <enum name="gone" value="0"/>
-        <enum name="invisible" value="1"/>
+        <enum name="gone" bitMapValue="0"/>
+        <enum name="invisible" bitMapValue="1"/>
     </attr><attr format="boolean" name="layout_constrainedHeight"/><attr format="boolean" name="layout_constrainedWidth"/><attr format="integer" name="layout_constraintBaseline_creator"/><attr format="reference|enum" name="layout_constraintBaseline_toBaselineOf">
-        <enum name="parent" value="0"/>
+        <enum name="parent" bitMapValue="0"/>
     </attr><attr format="integer" name="layout_constraintBottom_creator"/><attr format="reference|enum" name="layout_constraintBottom_toBottomOf">
-        <enum name="parent" value="0"/>
+        <enum name="parent" bitMapValue="0"/>
     </attr><attr format="reference|enum" name="layout_constraintBottom_toTopOf">
-        <enum name="parent" value="0"/>
+        <enum name="parent" bitMapValue="0"/>
     </attr><attr format="reference" name="layout_constraintCircle"/><attr format="integer" name="layout_constraintCircleAngle"/><attr format="dimension" name="layout_constraintCircleRadius"/><attr format="string" name="layout_constraintDimensionRatio"/><attr format="reference|enum" name="layout_constraintEnd_toEndOf">
-        <enum name="parent" value="0"/>
+        <enum name="parent" bitMapValue="0"/>
     </attr><attr format="reference|enum" name="layout_constraintEnd_toStartOf">
-        <enum name="parent" value="0"/>
+        <enum name="parent" bitMapValue="0"/>
     </attr><attr format="dimension" name="layout_constraintGuide_begin"/><attr format="dimension" name="layout_constraintGuide_end"/><attr format="float" name="layout_constraintGuide_percent"/><attr name="layout_constraintHeight_default">
-        <enum name="spread" value="0"/>
-        <enum name="wrap" value="1"/>
-        <enum name="percent" value="2"/>
+        <enum name="spread" bitMapValue="0"/>
+        <enum name="wrap" bitMapValue="1"/>
+        <enum name="percent" bitMapValue="2"/>
     </attr><attr format="dimension|enum" name="layout_constraintHeight_max">
-        <enum name="wrap" value="-2"/>
+        <enum name="wrap" bitMapValue="-2"/>
     </attr><attr format="dimension|enum" name="layout_constraintHeight_min">
-        <enum name="wrap" value="-2"/>
+        <enum name="wrap" bitMapValue="-2"/>
     </attr><attr format="float" name="layout_constraintHeight_percent"/><attr format="float" name="layout_constraintHorizontal_bias"/><attr format="enum" name="layout_constraintHorizontal_chainStyle">
-        <enum name="spread" value="0"/>
-        <enum name="spread_inside" value="1"/>
-        <enum name="packed" value="2"/>
+        <enum name="spread" bitMapValue="0"/>
+        <enum name="spread_inside" bitMapValue="1"/>
+        <enum name="packed" bitMapValue="2"/>
     </attr><attr format="float" name="layout_constraintHorizontal_weight"/><attr format="integer" name="layout_constraintLeft_creator"/><attr format="reference|enum" name="layout_constraintLeft_toLeftOf">
-        <enum name="parent" value="0"/>
+        <enum name="parent" bitMapValue="0"/>
     </attr><attr format="reference|enum" name="layout_constraintLeft_toRightOf">
-        <enum name="parent" value="0"/>
+        <enum name="parent" bitMapValue="0"/>
     </attr><attr format="integer" name="layout_constraintRight_creator"/><attr format="reference|enum" name="layout_constraintRight_toLeftOf">
-        <enum name="parent" value="0"/>
+        <enum name="parent" bitMapValue="0"/>
     </attr><attr format="reference|enum" name="layout_constraintRight_toRightOf">
-        <enum name="parent" value="0"/>
+        <enum name="parent" bitMapValue="0"/>
     </attr><attr format="reference|enum" name="layout_constraintStart_toEndOf">
-        <enum name="parent" value="0"/>
+        <enum name="parent" bitMapValue="0"/>
     </attr><attr format="reference|enum" name="layout_constraintStart_toStartOf">
-        <enum name="parent" value="0"/>
+        <enum name="parent" bitMapValue="0"/>
     </attr><attr format="integer" name="layout_constraintTop_creator"/><attr format="reference|enum" name="layout_constraintTop_toBottomOf">
-        <enum name="parent" value="0"/>
+        <enum name="parent" bitMapValue="0"/>
     </attr><attr format="reference|enum" name="layout_constraintTop_toTopOf">
-        <enum name="parent" value="0"/>
+        <enum name="parent" bitMapValue="0"/>
     </attr><attr format="float" name="layout_constraintVertical_bias"/><attr format="enum" name="layout_constraintVertical_chainStyle">
-        <enum name="spread" value="0"/>
-        <enum name="spread_inside" value="1"/>
-        <enum name="packed" value="2"/>
+        <enum name="spread" bitMapValue="0"/>
+        <enum name="spread_inside" bitMapValue="1"/>
+        <enum name="packed" bitMapValue="2"/>
     </attr><attr format="float" name="layout_constraintVertical_weight"/><attr name="layout_constraintWidth_default">
-        <enum name="spread" value="0"/>
-        <enum name="wrap" value="1"/>
-        <enum name="percent" value="2"/>
+        <enum name="spread" bitMapValue="0"/>
+        <enum name="wrap" bitMapValue="1"/>
+        <enum name="percent" bitMapValue="2"/>
     </attr><attr format="dimension|enum" name="layout_constraintWidth_max">
-        <enum name="wrap" value="-2"/>
+        <enum name="wrap" bitMapValue="-2"/>
     </attr><attr format="dimension|enum" name="layout_constraintWidth_min">
-        <enum name="wrap" value="-2"/>
+        <enum name="wrap" bitMapValue="-2"/>
     </attr><attr format="float" name="layout_constraintWidth_percent"/><attr format="dimension" name="layout_editor_absoluteX"/><attr format="dimension" name="layout_editor_absoluteY"/><attr format="dimension" name="layout_goneMarginBottom"/><attr format="dimension" name="layout_goneMarginEnd"/><attr format="dimension" name="layout_goneMarginLeft"/><attr format="dimension" name="layout_goneMarginRight"/><attr format="dimension" name="layout_goneMarginStart"/><attr format="dimension" name="layout_goneMarginTop"/><attr name="layout_optimizationLevel">
-        <flag name="none" value="0"/>
-        <flag name="standard" value="7"/> 
-        <flag name="direct" value="1"/>
-        <flag name="barrier" value="2"/>
-        <flag name="chains" value="4"/>
-        <flag name="dimensions" value="8"/>
-        <flag name="groups" value="32"/>
+        <flag name="none" bitMapValue="0"/>
+        <flag name="standard" bitMapValue="7"/>
+        <flag name="direct" bitMapValue="1"/>
+        <flag name="barrier" bitMapValue="2"/>
+        <flag name="chains" bitMapValue="4"/>
+        <flag name="dimensions" bitMapValue="8"/>
+        <flag name="groups" bitMapValue="32"/>
     </attr><declare-styleable name="ConstraintLayout_Layout"><attr name="android:orientation"/><attr name="android:minWidth"/><attr name="android:minHeight"/><attr name="android:maxWidth"/><attr name="android:maxHeight"/><attr name="layout_optimizationLevel"/><attr name="constraintSet"/><attr name="barrierDirection"/><attr name="barrierAllowsGoneWidgets"/><attr name="constraint_referenced_ids"/><attr name="chainUseRtl"/><attr name="layout_constraintCircle"/><attr name="layout_constraintCircleRadius"/><attr name="layout_constraintCircleAngle"/><attr name="layout_constraintGuide_begin"/><attr name="layout_constraintGuide_end"/><attr name="layout_constraintGuide_percent"/><attr name="layout_constraintLeft_toLeftOf"/><attr name="layout_constraintLeft_toRightOf"/><attr name="layout_constraintRight_toLeftOf"/><attr name="layout_constraintRight_toRightOf"/><attr name="layout_constraintTop_toTopOf"/><attr name="layout_constraintTop_toBottomOf"/><attr name="layout_constraintBottom_toTopOf"/><attr name="layout_constraintBottom_toBottomOf"/><attr name="layout_constraintBaseline_toBaselineOf"/><attr name="layout_constraintStart_toEndOf"/><attr name="layout_constraintStart_toStartOf"/><attr name="layout_constraintEnd_toStartOf"/><attr name="layout_constraintEnd_toEndOf"/><attr name="layout_goneMarginLeft"/><attr name="layout_goneMarginTop"/><attr name="layout_goneMarginRight"/><attr name="layout_goneMarginBottom"/><attr name="layout_goneMarginStart"/><attr name="layout_goneMarginEnd"/><attr name="layout_constrainedWidth"/><attr name="layout_constrainedHeight"/><attr name="layout_constraintHorizontal_bias"/><attr name="layout_constraintVertical_bias"/><attr name="layout_constraintWidth_default"/><attr name="layout_constraintHeight_default"/><attr name="layout_constraintWidth_min"/><attr name="layout_constraintWidth_max"/><attr name="layout_constraintWidth_percent"/><attr name="layout_constraintHeight_min"/><attr name="layout_constraintHeight_max"/><attr name="layout_constraintHeight_percent"/><attr name="layout_constraintLeft_creator"/><attr name="layout_constraintTop_creator"/><attr name="layout_constraintRight_creator"/><attr name="layout_constraintBottom_creator"/><attr name="layout_constraintBaseline_creator"/><attr name="layout_constraintDimensionRatio"/><attr name="layout_constraintHorizontal_weight"/><attr name="layout_constraintVertical_weight"/><attr name="layout_constraintHorizontal_chainStyle"/><attr name="layout_constraintVertical_chainStyle"/><attr name="layout_editor_absoluteX"/><attr name="layout_editor_absoluteY"/></declare-styleable><declare-styleable name="ConstraintLayout_placeholder"><attr name="emptyVisibility"/><attr name="content"/></declare-styleable><declare-styleable name="ConstraintSet"><attr name="android:orientation"/><attr name="android:id"/><attr name="android:visibility"/><attr name="android:alpha"/><attr name="android:elevation"/><attr name="android:rotation"/><attr name="android:rotationX"/><attr name="android:rotationY"/><attr name="android:scaleX"/><attr name="android:scaleY"/><attr name="android:transformPivotX"/><attr name="android:transformPivotY"/><attr name="android:translationX"/><attr name="android:translationY"/><attr name="android:translationZ"/><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_marginStart"/><attr name="android:layout_marginBottom"/><attr name="android:layout_marginTop"/><attr name="android:layout_marginEnd"/><attr name="android:layout_marginLeft"/><attr name="android:layout_marginRight"/><attr name="layout_constraintCircle"/><attr name="layout_constraintCircleRadius"/><attr name="layout_constraintCircleAngle"/><attr name="layout_constraintGuide_begin"/><attr name="layout_constraintGuide_end"/><attr name="layout_constraintGuide_percent"/><attr name="layout_constraintLeft_toLeftOf"/><attr name="layout_constraintLeft_toRightOf"/><attr name="layout_constraintRight_toLeftOf"/><attr name="layout_constraintRight_toRightOf"/><attr name="layout_constraintTop_toTopOf"/><attr name="layout_constraintTop_toBottomOf"/><attr name="layout_constraintBottom_toTopOf"/><attr name="layout_constraintBottom_toBottomOf"/><attr name="layout_constraintBaseline_toBaselineOf"/><attr name="layout_constraintStart_toEndOf"/><attr name="layout_constraintStart_toStartOf"/><attr name="layout_constraintEnd_toStartOf"/><attr name="layout_constraintEnd_toEndOf"/><attr name="layout_goneMarginLeft"/><attr name="layout_goneMarginTop"/><attr name="layout_goneMarginRight"/><attr name="layout_goneMarginBottom"/><attr name="layout_goneMarginStart"/><attr name="layout_goneMarginEnd"/><attr name="layout_constrainedWidth"/><attr name="layout_constrainedHeight"/><attr name="layout_constraintHorizontal_bias"/><attr name="layout_constraintVertical_bias"/><attr name="layout_constraintWidth_default"/><attr name="layout_constraintHeight_default"/><attr name="layout_constraintWidth_min"/><attr name="layout_constraintWidth_max"/><attr name="layout_constraintWidth_percent"/><attr name="layout_constraintHeight_min"/><attr name="layout_constraintHeight_max"/><attr name="layout_constraintHeight_percent"/><attr name="layout_constraintLeft_creator"/><attr name="layout_constraintTop_creator"/><attr name="layout_constraintRight_creator"/><attr name="layout_constraintBottom_creator"/><attr name="layout_constraintBaseline_creator"/><attr name="layout_constraintDimensionRatio"/><attr name="layout_constraintHorizontal_weight"/><attr name="layout_constraintVertical_weight"/><attr name="layout_constraintHorizontal_chainStyle"/><attr name="layout_constraintVertical_chainStyle"/><attr name="layout_editor_absoluteX"/><attr name="layout_editor_absoluteY"/><attr name="barrierDirection"/><attr name="constraint_referenced_ids"/><attr name="android:maxHeight"/><attr name="android:maxWidth"/><attr name="android:minHeight"/><attr name="android:minWidth"/><attr name="barrierAllowsGoneWidgets"/><attr name="chainUseRtl"/></declare-styleable><declare-styleable name="LinearConstraintLayout"><attr name="android:orientation"/></declare-styleable></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.appcompat:appcompat:1.1.0$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.appcompat:appcompat:1.1.0" from-dependency="true" generated-set="androidx.appcompat:appcompat:1.1.0$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res"><file path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/values-uz/values-uz.xml" qualifiers="uz"><string msgid="7903180715631665059" name="abc_action_bar_home_description">"Boshiga o‘tish"</string><string msgid="6794660482873516081" name="abc_action_bar_up_description">"Yopish"</string><string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Yana"</string><string msgid="2571498368472823490" name="abc_action_mode_done">"OK"</string><string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Hammasi"</string><string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Ilovani tanlang"</string><string msgid="3403923230105792483" name="abc_capital_off">"YOQILMAGAN"</string><string msgid="7831734969929204599" name="abc_capital_on">"YONIQ"</string><string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string><string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string><string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"Delete"</string><string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"Enter"</string><string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Fn+"</string><string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string><string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string><string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"Probel"</string><string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string><string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menyu+"</string><string msgid="940844115270746197" name="abc_search_hint">"Qidirish…"</string><string msgid="1769270744562318534" name="abc_searchview_description_clear">"So‘rovni o‘chirish"</string><string msgid="908784302972860853" name="abc_searchview_description_query">"Qidiruv so‘rovi"</string><string msgid="5466662225065974044" name="abc_searchview_description_search">"Qidiruv"</string><string msgid="8203855622131699655" name="abc_searchview_description_submit">"So‘rov yaratish"</string><string msgid="3478748990613108725" name="abc_searchview_description_voice">"Ovozli qidiruv"</string><string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Ulashish"</string><string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> orqali ulashish"</string><string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Yig‘ish"</string><string msgid="730395136688082741" name="search_menu_title">"Qidiruv"</string></file><file path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/values-ar/values-ar.xml" qualifiers="ar"><string msgid="7903180715631665059" name="abc_action_bar_home_description">"التوجه إلى المنزل"</string><string msgid="6794660482873516081" name="abc_action_bar_up_description">"التنقل إلى أعلى"</string><string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"خيارات أكثر"</string><string msgid="2571498368472823490" name="abc_action_mode_done">"تم"</string><string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"عرض الكل"</string><string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"اختيار تطبيق"</string><string msgid="3403923230105792483" name="abc_capital_off">"إيقاف"</string><string msgid="7831734969929204599" name="abc_capital_on">"تفعيل"</string><string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string><string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string><string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"حذف"</string><string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"enter"</string><string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Function+"</string><string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string><string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string><string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"فضاء"</string><string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string><string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"القائمة+"</string><string msgid="940844115270746197" name="abc_search_hint">"بحث…"</string><string msgid="1769270744562318534" name="abc_searchview_description_clear">"محو طلب البحث"</string><string msgid="908784302972860853" name="abc_searchview_description_query">"طلب بحث"</string><string msgid="5466662225065974044" name="abc_searchview_description_search">"البحث"</string><string msgid="8203855622131699655" name="abc_searchview_description_submit">"إرسال طلب البحث"</string><string msgid="3478748990613108725" name="abc_searchview_description_voice">"بحث صوتي"</string><string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"مشاركة مع"</string><string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"مشاركة مع <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string><string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"تصغير"</string><string msgid="730395136688082741" name="search_menu_title">"البحث"</string></file><file name="abc_tab_indicator_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_scrubber_track_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_btn_radio_to_on_mtrl_015" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_textfield_default_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_list_pressed_holo_dark" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_ic_star_half_black_36dp" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_scrubber_control_to_pressed_mtrl_005" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_list_selector_disabled_holo_dark" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_textfield_search_default_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_ic_star_black_16dp" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_ic_star_black_16dp.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_text_select_handle_left_mtrl_dark" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_text_select_handle_left_mtrl_dark.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_text_select_handle_left_mtrl_light" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_text_select_handle_left_mtrl_light.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_list_pressed_holo_light" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_text_select_handle_right_mtrl_dark" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_text_select_handle_right_mtrl_dark.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_textfield_search_activated_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_ic_star_black_48dp" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_ic_star_black_48dp.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_text_select_handle_middle_mtrl_light" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_text_select_handle_middle_mtrl_light.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_list_focused_holo" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_list_focused_holo.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_textfield_activated_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_text_select_handle_middle_mtrl_dark" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_text_select_handle_middle_mtrl_dark.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_ic_menu_share_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_scrubber_primary_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_ic_menu_paste_mtrl_am_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_list_longpressed_holo" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_scrubber_control_off_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_spinner_mtrl_am_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_list_divider_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_switch_track_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_ic_star_black_36dp" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_ic_star_black_36dp.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_cab_background_top_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_ic_menu_cut_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_btn_switch_to_on_mtrl_00012" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_btn_switch_to_on_mtrl_00001" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_popup_background_mtrl_mult" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_ic_star_half_black_48dp" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_ic_star_half_black_48dp.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_btn_check_to_on_mtrl_015" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_text_select_handle_right_mtrl_light" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_text_select_handle_right_mtrl_light.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_ic_star_half_black_16dp" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_ic_star_half_black_16dp.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_ic_commit_search_api_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_ic_menu_copy_mtrl_am_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_scrubber_control_to_pressed_mtrl_000" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_ab_share_pack_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_menu_hardkey_panel_mtrl_mult" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_ic_menu_selectall_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_btn_check_to_on_mtrl_000" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_btn_radio_to_on_mtrl_000" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_list_selector_disabled_holo_light" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="abc_spinner_mtrl_am_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png" qualifiers="ldrtl-xhdpi-v17" type="drawable"/><file name="abc_ic_menu_cut_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png" qualifiers="ldrtl-xhdpi-v17" type="drawable"/><file name="abc_ic_menu_copy_mtrl_am_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" qualifiers="ldrtl-xhdpi-v17" type="drawable"/><file path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/values-kk/values-kk.xml" qualifiers="kk"><string msgid="7903180715631665059" name="abc_action_bar_home_description">"Негізгі бетке өту"</string><string msgid="6794660482873516081" name="abc_action_bar_up_description">"Жоғары қарай өту"</string><string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Басқа опциялар"</string><string msgid="2571498368472823490" name="abc_action_mode_done">"Дайын"</string><string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Барлығын көру"</string><string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Қолданбаны таңдау"</string><string msgid="3403923230105792483" name="abc_capital_off">"ӨШІРУ"</string><string msgid="7831734969929204599" name="abc_capital_on">"ҚОСУ"</string><string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string><string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string><string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"delete"</string><string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"enter"</string><string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Function+"</string><string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string><string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string><string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"бос орын"</string><string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string><string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menu+"</string><string msgid="940844115270746197" name="abc_search_hint">"Іздеу…"</string><string msgid="1769270744562318534" name="abc_searchview_description_clear">"Сұрауды өшіру"</string><string msgid="908784302972860853" name="abc_searchview_description_query">"Іздеу сұрауы"</string><string msgid="5466662225065974044" name="abc_searchview_description_search">"Іздеу"</string><string msgid="8203855622131699655" name="abc_searchview_description_submit">"Сұрауды жіберу"</string><string msgid="3478748990613108725" name="abc_searchview_description_voice">"Дауыспен іздеу"</string><string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Бөлісу"</string><string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> қолданбасымен бөлісу"</string><string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Жию"</string><string msgid="730395136688082741" name="search_menu_title">"Іздеу"</string></file><file path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/values-bn/values-bn.xml" qualifiers="bn"><string msgid="7903180715631665059" name="abc_action_bar_home_description">"হোমে নেভিগেট করুন"</string><string msgid="6794660482873516081" name="abc_action_bar_up_description">"উপরে নেভিগেট করুন"</string><string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"আরও বিকল্প"</string><string msgid="2571498368472823490" name="abc_action_mode_done">"হয়ে গেছে"</string><string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"সবগুলি দেখুন"</string><string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"একটি অ্যাপ বেছে নিন"</string><string msgid="3403923230105792483" name="abc_capital_off">"বন্ধ আছে"</string><string msgid="7831734969929204599" name="abc_capital_on">"চালু করুন"</string><string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string><string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string><string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"মুছুন"</string><string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"enter"</string><string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Function+"</string><string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string><string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string><string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"space"</string><string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string><string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menu+"</string><string msgid="940844115270746197" name="abc_search_hint">"সার্চ করুন…"</string><string msgid="1769270744562318534" name="abc_searchview_description_clear">"কোয়েরি মুছে ফেলুন"</string><string msgid="908784302972860853" name="abc_searchview_description_query">"সার্চ কোয়েরি"</string><string msgid="5466662225065974044" name="abc_searchview_description_search">"সার্চ করুন"</string><string msgid="8203855622131699655" name="abc_searchview_description_submit">"কোয়েরি জমা দিন"</string><string msgid="3478748990613108725" name="abc_searchview_description_voice">"ভয়েস সার্চ করুন"</string><string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"শেয়ার করুন"</string><string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>-এর সাথে শেয়ার করুন"</string><string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"সঙ্কুচিত করুন"</string><string msgid="730395136688082741" name="search_menu_title">"সার্চ করুন"</string></file><file path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/values-ca/values-ca.xml" qualifiers="ca"><string msgid="7903180715631665059" name="abc_action_bar_home_description">"Navega a la pàgina d\'inici"</string><string msgid="6794660482873516081" name="abc_action_bar_up_description">"Navega cap amunt"</string><string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Més opcions"</string><string msgid="2571498368472823490" name="abc_action_mode_done">"Fet"</string><string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Mostra-ho tot"</string><string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Selecciona una aplicació"</string><string msgid="3403923230105792483" name="abc_capital_off">"DESACTIVA"</string><string msgid="7831734969929204599" name="abc_capital_on">"ACTIVA"</string><string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string><string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string><string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"Supr"</string><string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"Retorn"</string><string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Funció+"</string><string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string><string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Maj+"</string><string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"Espai"</string><string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string><string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menú+"</string><string msgid="940844115270746197" name="abc_search_hint">"Cerca…"</string><string msgid="1769270744562318534" name="abc_searchview_description_clear">"Esborra la consulta"</string><string msgid="908784302972860853" name="abc_searchview_description_query">"Consulta de cerca"</string><string msgid="5466662225065974044" name="abc_searchview_description_search">"Cerca"</string><string msgid="8203855622131699655" name="abc_searchview_description_submit">"Envia la consulta"</string><string msgid="3478748990613108725" name="abc_searchview_description_voice">"Cerca per veu"</string><string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Comparteix amb"</string><string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Comparteix amb <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string><string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Replega"</string><string msgid="730395136688082741" name="search_menu_title">"Cerca"</string></file><file name="btn_checkbox_to_unchecked_box_inner_merged_animation" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/anim/btn_checkbox_to_unchecked_box_inner_merged_animation.xml" qualifiers="" type="anim"/><file name="btn_radio_to_off_mtrl_ring_outer_path_animation" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/anim/btn_radio_to_off_mtrl_ring_outer_path_animation.xml" qualifiers="" type="anim"/><file name="abc_fade_in" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/anim/abc_fade_in.xml" qualifiers="" type="anim"/><file name="abc_slide_in_top" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/anim/abc_slide_in_top.xml" qualifiers="" type="anim"/><file name="abc_slide_out_top" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/anim/abc_slide_out_top.xml" qualifiers="" type="anim"/><file name="abc_popup_enter" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/anim/abc_popup_enter.xml" qualifiers="" type="anim"/><file name="abc_fade_out" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/anim/abc_fade_out.xml" qualifiers="" type="anim"/><file name="btn_radio_to_off_mtrl_ring_outer_animation" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/anim/btn_radio_to_off_mtrl_ring_outer_animation.xml" qualifiers="" type="anim"/><file name="btn_radio_to_on_mtrl_ring_outer_path_animation" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/anim/btn_radio_to_on_mtrl_ring_outer_path_animation.xml" qualifiers="" type="anim"/><file name="btn_checkbox_to_unchecked_check_path_merged_animation" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/anim/btn_checkbox_to_unchecked_check_path_merged_animation.xml" qualifiers="" type="anim"/><file name="abc_shrink_fade_out_from_bottom" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/anim/abc_shrink_fade_out_from_bottom.xml" qualifiers="" type="anim"/><file name="abc_grow_fade_in_from_bottom" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/anim/abc_grow_fade_in_from_bottom.xml" qualifiers="" type="anim"/><file name="abc_slide_out_bottom" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/anim/abc_slide_out_bottom.xml" qualifiers="" type="anim"/><file name="btn_radio_to_on_mtrl_ring_outer_animation" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/anim/btn_radio_to_on_mtrl_ring_outer_animation.xml" qualifiers="" type="anim"/><file name="btn_checkbox_to_checked_box_inner_merged_animation" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/anim/btn_checkbox_to_checked_box_inner_merged_animation.xml" qualifiers="" type="anim"/><file name="abc_tooltip_exit" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/anim/abc_tooltip_exit.xml" qualifiers="" type="anim"/><file name="btn_checkbox_to_checked_icon_null_animation" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/anim/btn_checkbox_to_checked_icon_null_animation.xml" qualifiers="" type="anim"/><file name="btn_checkbox_to_checked_box_outer_merged_animation" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/anim/btn_checkbox_to_checked_box_outer_merged_animation.xml" qualifiers="" type="anim"/><file name="btn_radio_to_off_mtrl_dot_group_animation" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/anim/btn_radio_to_off_mtrl_dot_group_animation.xml" qualifiers="" type="anim"/><file name="abc_popup_exit" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/anim/abc_popup_exit.xml" qualifiers="" type="anim"/><file name="btn_radio_to_on_mtrl_dot_group_animation" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/anim/btn_radio_to_on_mtrl_dot_group_animation.xml" qualifiers="" type="anim"/><file name="abc_slide_in_bottom" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/anim/abc_slide_in_bottom.xml" qualifiers="" type="anim"/><file name="btn_checkbox_to_unchecked_icon_null_animation" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/anim/btn_checkbox_to_unchecked_icon_null_animation.xml" qualifiers="" type="anim"/><file name="abc_tooltip_enter" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/anim/abc_tooltip_enter.xml" qualifiers="" type="anim"/><file name="abc_spinner_mtrl_am_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png" qualifiers="ldrtl-mdpi-v17" type="drawable"/><file name="abc_ic_menu_cut_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_cut_mtrl_alpha.png" qualifiers="ldrtl-mdpi-v17" type="drawable"/><file name="abc_ic_menu_copy_mtrl_am_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" qualifiers="ldrtl-mdpi-v17" type="drawable"/><file path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/values-zh-rHK/values-zh-rHK.xml" qualifiers="zh-rHK"><string msgid="7903180715631665059" name="abc_action_bar_home_description">"瀏覽主頁"</string><string msgid="6794660482873516081" name="abc_action_bar_up_description">"向上瀏覽"</string><string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"更多選項"</string><string msgid="2571498368472823490" name="abc_action_mode_done">"完成"</string><string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"查看全部"</string><string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"選擇應用程式"</string><string msgid="3403923230105792483" name="abc_capital_off">"關閉"</string><string msgid="7831734969929204599" name="abc_capital_on">"開啟"</string><string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt +"</string><string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string><string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"刪除"</string><string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"Enter 鍵"</string><string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Fn +"</string><string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta +"</string><string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift +"</string><string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"空白鍵"</string><string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym +"</string><string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menu +"</string><string msgid="940844115270746197" name="abc_search_hint">"搜尋…"</string><string msgid="1769270744562318534" name="abc_searchview_description_clear">"清除查詢"</string><string msgid="908784302972860853" name="abc_searchview_description_query">"搜尋查詢"</string><string msgid="5466662225065974044" name="abc_searchview_description_search">"搜尋"</string><string msgid="8203855622131699655" name="abc_searchview_description_submit">"提交查詢"</string><string msgid="3478748990613108725" name="abc_searchview_description_voice">"語音搜尋"</string><string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"分享對象"</string><string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"使用「<ns1:g id="APPLICATION_NAME">%s</ns1:g>」分享"</string><string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"收合"</string><string msgid="730395136688082741" name="search_menu_title">"搜尋"</string></file><file path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/values-km/values-km.xml" qualifiers="km"><string msgid="7903180715631665059" name="abc_action_bar_home_description">"​ទៅទំព័រដើម"</string><string msgid="6794660482873516081" name="abc_action_bar_up_description">"រំកិលឡើងលើ"</string><string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"ជម្រើសច្រើនទៀត"</string><string msgid="2571498368472823490" name="abc_action_mode_done">"រួចរាល់"</string><string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"មើលទាំងអស់"</string><string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"ជ្រើសរើស​កម្មវិធី​​"</string><string msgid="3403923230105792483" name="abc_capital_off">"បិទ"</string><string msgid="7831734969929204599" name="abc_capital_on">"បើក"</string><string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string><string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string><string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"លុប"</string><string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"enter"</string><string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Function+"</string><string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string><string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string><string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"space"</string><string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string><string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menu+"</string><string msgid="940844115270746197" name="abc_search_hint">"ស្វែងរក…"</string><string msgid="1769270744562318534" name="abc_searchview_description_clear">"សម្អាត​សំណួរ"</string><string msgid="908784302972860853" name="abc_searchview_description_query">"ស្វែងរកសំណួរ​"</string><string msgid="5466662225065974044" name="abc_searchview_description_search">"ស្វែងរក"</string><string msgid="8203855622131699655" name="abc_searchview_description_submit">"ដាក់បញ្ជូន​សំណួរ"</string><string msgid="3478748990613108725" name="abc_searchview_description_voice">"ស្វែងរក​តាម​សំឡេង"</string><string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"ចែករំលែក​ជា​មួយ"</string><string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"ចែក​រំលែក​ជា​មួយ <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string><string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"បង្រួម"</string><string msgid="730395136688082741" name="search_menu_title">"ស្វែងរក"</string></file><file path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/values-mr/values-mr.xml" qualifiers="mr"><string msgid="7903180715631665059" name="abc_action_bar_home_description">"घराकडे नेव्हिगेट करा"</string><string msgid="6794660482873516081" name="abc_action_bar_up_description">"वर नेव्‍हिगेट करा"</string><string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"आणखी पर्याय"</string><string msgid="2571498368472823490" name="abc_action_mode_done">"पूर्ण झाले"</string><string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"सर्व पाहा"</string><string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"अ‍ॅप निवडा"</string><string msgid="3403923230105792483" name="abc_capital_off">"बंद"</string><string msgid="7831734969929204599" name="abc_capital_on">"सुरू"</string><string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string><string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string><string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"हटवा"</string><string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"एंटर करा"</string><string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Function+"</string><string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string><string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string><string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"space"</string><string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string><string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"मेनू+"</string><string msgid="940844115270746197" name="abc_search_hint">"शोधा…"</string><string msgid="1769270744562318534" name="abc_searchview_description_clear">"क्‍वेरी साफ करा"</string><string msgid="908784302972860853" name="abc_searchview_description_query">"शोध क्वेरी"</string><string msgid="5466662225065974044" name="abc_searchview_description_search">"शोध"</string><string msgid="8203855622131699655" name="abc_searchview_description_submit">"क्वेरी सबमिट करा"</string><string msgid="3478748990613108725" name="abc_searchview_description_voice">"व्हॉइस शोध"</string><string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"यांच्यासोबत शेअर करा"</string><string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> सह शेअर करा"</string><string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"कोलॅप्स करा"</string><string msgid="730395136688082741" name="search_menu_title">"शोध"</string></file><file name="abc_search_url_text" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/color/abc_search_url_text.xml" qualifiers="" type="color"/><file name="abc_btn_colored_borderless_text_material" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/color/abc_btn_colored_borderless_text_material.xml" qualifiers="" type="color"/><file name="abc_background_cache_hint_selector_material_dark" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/color/abc_background_cache_hint_selector_material_dark.xml" qualifiers="" type="color"/><file name="abc_primary_text_material_dark" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/color/abc_primary_text_material_dark.xml" qualifiers="" type="color"/><file name="abc_secondary_text_material_light" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/color/abc_secondary_text_material_light.xml" qualifiers="" type="color"/><file name="abc_primary_text_disable_only_material_light" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/color/abc_primary_text_disable_only_material_light.xml" qualifiers="" type="color"/><file name="abc_primary_text_disable_only_material_dark" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/color/abc_primary_text_disable_only_material_dark.xml" qualifiers="" type="color"/><file name="abc_secondary_text_material_dark" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/color/abc_secondary_text_material_dark.xml" qualifiers="" type="color"/><file name="abc_background_cache_hint_selector_material_light" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/color/abc_background_cache_hint_selector_material_light.xml" qualifiers="" type="color"/><file name="abc_tint_edittext" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/color/abc_tint_edittext.xml" qualifiers="" type="color"/><file name="switch_thumb_material_dark" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/color/switch_thumb_material_dark.xml" qualifiers="" type="color"/><file name="abc_tint_switch_track" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/color/abc_tint_switch_track.xml" qualifiers="" type="color"/><file name="abc_btn_colored_text_material" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/color/abc_btn_colored_text_material.xml" qualifiers="" type="color"/><file name="abc_tint_default" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/color/abc_tint_default.xml" qualifiers="" type="color"/><file name="abc_tint_btn_checkable" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/color/abc_tint_btn_checkable.xml" qualifiers="" type="color"/><file name="abc_tint_seek_thumb" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/color/abc_tint_seek_thumb.xml" qualifiers="" type="color"/><file name="switch_thumb_material_light" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/color/switch_thumb_material_light.xml" qualifiers="" type="color"/><file name="abc_hint_foreground_material_light" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/color/abc_hint_foreground_material_light.xml" qualifiers="" type="color"/><file name="abc_tint_spinner" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/color/abc_tint_spinner.xml" qualifiers="" type="color"/><file name="abc_hint_foreground_material_dark" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/color/abc_hint_foreground_material_dark.xml" qualifiers="" type="color"/><file name="abc_primary_text_material_light" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/color/abc_primary_text_material_light.xml" qualifiers="" type="color"/><file path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/values-az/values-az.xml" qualifiers="az"><string msgid="7903180715631665059" name="abc_action_bar_home_description">"Əsas səhifəyə keçin"</string><string msgid="6794660482873516081" name="abc_action_bar_up_description">"Yuxarı keçin"</string><string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Digər seçimlər"</string><string msgid="2571498368472823490" name="abc_action_mode_done">"Hazırdır"</string><string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Hamısına baxın"</string><string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Tətbiq seçin"</string><string msgid="3403923230105792483" name="abc_capital_off">"DEAKTİV"</string><string msgid="7831734969929204599" name="abc_capital_on">"AKTİV"</string><string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string><string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string><string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"silin"</string><string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"daxil olun"</string><string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Funksiya+"</string><string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string><string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string><string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"space"</string><string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string><string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menyu+"</string><string msgid="940844115270746197" name="abc_search_hint">"Axtarış..."</string><string msgid="1769270744562318534" name="abc_searchview_description_clear">"Sorğunu silin"</string><string msgid="908784302972860853" name="abc_searchview_description_query">"Axtarış sorğusu"</string><string msgid="5466662225065974044" name="abc_searchview_description_search">"Axtarın"</string><string msgid="8203855622131699655" name="abc_searchview_description_submit">"Sorğunu göndərin"</string><string msgid="3478748990613108725" name="abc_searchview_description_voice">"Səsli axtarış"</string><string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Paylaşın"</string><string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> ilə paylaşın"</string><string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Yığcamlaşdırın"</string><string msgid="730395136688082741" name="search_menu_title">"Axtarın"</string></file><file name="abc_list_divider_material" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-v21/abc_list_divider_material.xml" qualifiers="v21" type="drawable"/><file name="abc_action_bar_item_background_material" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-v21/abc_action_bar_item_background_material.xml" qualifiers="v21" type="drawable"/><file name="abc_dialog_material_background" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-v21/abc_dialog_material_background.xml" qualifiers="v21" type="drawable"/><file name="abc_edit_text_material" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-v21/abc_edit_text_material.xml" qualifiers="v21" type="drawable"/><file name="abc_btn_colored_material" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-v21/abc_btn_colored_material.xml" qualifiers="v21" type="drawable"/><file name="abc_dialog_material_background" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-watch-v20/abc_dialog_material_background.xml" qualifiers="watch-v20" type="drawable"/><file path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/values-hi/values-hi.xml" qualifiers="hi"><string msgid="7903180715631665059" name="abc_action_bar_home_description">"होम पेज पर जाएं"</string><string msgid="6794660482873516081" name="abc_action_bar_up_description">"वापस जाएं"</string><string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"ज़्यादा विकल्प"</string><string msgid="2571498368472823490" name="abc_action_mode_done">"हो गया"</string><string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"सभी देखें"</string><string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"कोई ऐप्लिकेशन चुनें"</string><string msgid="3403923230105792483" name="abc_capital_off">"बंद"</string><string msgid="7831734969929204599" name="abc_capital_on">"चालू"</string><string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string><string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string><string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"delete"</string><string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"enter"</string><string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Function+"</string><string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string><string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string><string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"space"</string><string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string><string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menu+"</string><string msgid="940844115270746197" name="abc_search_hint">"खोजें…"</string><string msgid="1769270744562318534" name="abc_searchview_description_clear">"क्‍वेरी हटाएं"</string><string msgid="908784302972860853" name="abc_searchview_description_query">"सर्च क्वेरी"</string><string msgid="5466662225065974044" name="abc_searchview_description_search">"खोजें"</string><string msgid="8203855622131699655" name="abc_searchview_description_submit">"क्वेरी सबमिट करें"</string><string msgid="3478748990613108725" name="abc_searchview_description_voice">"बोलकर खोजें"</string><string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"इससे शेयर करें:"</string><string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> से शेयर करें"</string><string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"छोटा करें"</string><string msgid="730395136688082741" name="search_menu_title">"खोजें"</string></file><file path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/values-ml/values-ml.xml" qualifiers="ml"><string msgid="7903180715631665059" name="abc_action_bar_home_description">"ഹോമിലേക്ക് പോവുക"</string><string msgid="6794660482873516081" name="abc_action_bar_up_description">"മുകളിലേക്ക് പോവുക"</string><string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"കൂടുതൽ ഓപ്ഷനുകൾ"</string><string msgid="2571498368472823490" name="abc_action_mode_done">"പൂർത്തിയായി"</string><string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"എല്ലാം കാണുക"</string><string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"ആപ്പ് തിരഞ്ഞെടുക്കുക"</string><string msgid="3403923230105792483" name="abc_capital_off">"ഓഫ്"</string><string msgid="7831734969929204599" name="abc_capital_on">"ഓൺ"</string><string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string><string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string><string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"ഇല്ലാതാക്കുക"</string><string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"enter"</string><string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"ഫംഗ്ഷന്‍+"</string><string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"മെറ്റ+"</string><string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string><string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"സ്‌പെയ്‌സ്"</string><string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string><string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"മെനു+"</string><string msgid="940844115270746197" name="abc_search_hint">"തിരയുക…"</string><string msgid="1769270744562318534" name="abc_searchview_description_clear">"ചോദ്യം മായ്‌ക്കുക"</string><string msgid="908784302972860853" name="abc_searchview_description_query">"ചോദ്യം തിരയുക"</string><string msgid="5466662225065974044" name="abc_searchview_description_search">"തിരയുക"</string><string msgid="8203855622131699655" name="abc_searchview_description_submit">"ചോദ്യം സമർപ്പിക്കുക"</string><string msgid="3478748990613108725" name="abc_searchview_description_voice">"സംസാരത്തിലൂടെ തിരയുക"</string><string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"ഇനിപ്പറയുന്നതുമായി പങ്കിടുക"</string><string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> എന്നതുമായി പങ്കിടുക"</string><string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"ചുരുക്കുക"</string><string msgid="730395136688082741" name="search_menu_title">"തിരയുക"</string></file><file path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/values-sl/values-sl.xml" qualifiers="sl"><string msgid="7903180715631665059" name="abc_action_bar_home_description">"Krmarjenje na začetek"</string><string msgid="6794660482873516081" name="abc_action_bar_up_description">"Pomik navzgor"</string><string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Več možnosti"</string><string msgid="2571498368472823490" name="abc_action_mode_done">"Končano"</string><string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Pokaži vse"</string><string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Izbira aplikacije"</string><string msgid="3403923230105792483" name="abc_capital_off">"IZKLOP"</string><string msgid="7831734969929204599" name="abc_capital_on">"VKLOP"</string><string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt +"</string><string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string><string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"delete"</string><string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"enter"</string><string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Fn +"</string><string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta +"</string><string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift +"</string><string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"preslednica"</string><string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym +"</string><string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Meni +"</string><string msgid="940844115270746197" name="abc_search_hint">"Iskanje …"</string><string msgid="1769270744562318534" name="abc_searchview_description_clear">"Izbris poizvedbe"</string><string msgid="908784302972860853" name="abc_searchview_description_query">"Iskalna poizvedba"</string><string msgid="5466662225065974044" name="abc_searchview_description_search">"Iskanje"</string><string msgid="8203855622131699655" name="abc_searchview_description_submit">"Pošiljanje poizvedbe"</string><string msgid="3478748990613108725" name="abc_searchview_description_voice">"Glasovno iskanje"</string><string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Skupna raba z:"</string><string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Skupna raba z drugimi prek aplikacije <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string><string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Strnitev"</string><string msgid="730395136688082741" name="search_menu_title">"Iskanje"</string></file><file path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/values-be/values-be.xml" qualifiers="be"><string msgid="7903180715631665059" name="abc_action_bar_home_description">"Перайсці на галоўную старонку"</string><string msgid="6794660482873516081" name="abc_action_bar_up_description">"Перайсці ўверх"</string><string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Дадатковыя параметры"</string><string msgid="2571498368472823490" name="abc_action_mode_done">"Гатова"</string><string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Паказаць усе"</string><string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Выберыце праграму"</string><string msgid="3403923230105792483" name="abc_capital_off">"ВЫКЛ."</string><string msgid="7831734969929204599" name="abc_capital_on">"УКЛ."</string><string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt +"</string><string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string><string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"Delete"</string><string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"Enter"</string><string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Fn +"</string><string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta +"</string><string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift +"</string><string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"Прабел"</string><string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym +"</string><string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Меню +"</string><string msgid="940844115270746197" name="abc_search_hint">"Пошук…"</string><string msgid="1769270744562318534" name="abc_searchview_description_clear">"Выдаліць запыт"</string><string msgid="908784302972860853" name="abc_searchview_description_query">"Пошукавы запыт"</string><string msgid="5466662225065974044" name="abc_searchview_description_search">"Пошук"</string><string msgid="8203855622131699655" name="abc_searchview_description_submit">"Адправіць запыт"</string><string msgid="3478748990613108725" name="abc_searchview_description_voice">"Галасавы пошук"</string><string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Абагуліць праз"</string><string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Абагуліць праз праграму \"<ns1:g id="APPLICATION_NAME">%s</ns1:g>\""</string><string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Згарнуць"</string><string msgid="730395136688082741" name="search_menu_title">"Пошук"</string></file><file name="abc_tab_indicator_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_scrubber_track_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_btn_radio_to_on_mtrl_015" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_textfield_default_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_list_pressed_holo_dark" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_ic_star_half_black_36dp" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_ic_star_half_black_36dp.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_scrubber_control_to_pressed_mtrl_005" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_list_selector_disabled_holo_dark" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_textfield_search_default_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_ic_star_black_16dp" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_ic_star_black_16dp.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_text_select_handle_left_mtrl_dark" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_text_select_handle_left_mtrl_dark.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_text_select_handle_left_mtrl_light" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_text_select_handle_left_mtrl_light.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_list_pressed_holo_light" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_text_select_handle_right_mtrl_dark" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_text_select_handle_right_mtrl_dark.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_textfield_search_activated_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_ic_star_black_48dp" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_ic_star_black_48dp.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_text_select_handle_middle_mtrl_light" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_text_select_handle_middle_mtrl_light.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_list_focused_holo" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_list_focused_holo.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_textfield_activated_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_text_select_handle_middle_mtrl_dark" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_text_select_handle_middle_mtrl_dark.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_ic_menu_share_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_scrubber_primary_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_ic_menu_paste_mtrl_am_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_list_longpressed_holo" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_scrubber_control_off_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_spinner_mtrl_am_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_list_divider_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_switch_track_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_ic_star_black_36dp" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_ic_star_black_36dp.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_cab_background_top_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_ic_menu_cut_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_btn_switch_to_on_mtrl_00012" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_btn_switch_to_on_mtrl_00001" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_popup_background_mtrl_mult" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_ic_star_half_black_48dp" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_ic_star_half_black_48dp.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_btn_check_to_on_mtrl_015" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_text_select_handle_right_mtrl_light" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_text_select_handle_right_mtrl_light.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_ic_star_half_black_16dp" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_ic_commit_search_api_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_ic_menu_copy_mtrl_am_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_scrubber_control_to_pressed_mtrl_000" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_ab_share_pack_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_menu_hardkey_panel_mtrl_mult" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_ic_menu_selectall_mtrl_alpha" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_btn_check_to_on_mtrl_000" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_btn_radio_to_on_mtrl_000" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png" qualifiers="xhdpi-v4" type="drawable"/><file name="abc_list_selector_disabled_holo_light" path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png" qualifiers="xhdpi-v4" type="drawable"/><file path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/values-en-rXC/values-en-rXC.xml" qualifiers="en-rXC"><string msgid="4600421777120114993" name="abc_action_bar_home_description">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‎‏‏‏‏‏‏‏‏‎‏‎‏‏‏‏‏‏‏‏‎‏‏‎‎‏‏‏‎‏‏‎‏‏‏‎‎‏‎‎‎‏‏‎‏‏‏‎‎‏‏‏‎‎‏‎‎‏‏‎‎‎‏‎Navigate home‎‏‎‎‏‎"</string><string msgid="1594238315039666878" name="abc_action_bar_up_description">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‎‏‏‎‏‏‎‎‎‎‏‏‏‏‏‏‏‎‏‏‏‏‏‎‏‎‎‏‏‎‏‎‎‎‎‎‏‏‏‎‏‎‎‎‎‎‏‏‎‏‏‎‎‏‎‏‎‏‏‏‏‏‎‎Navigate up‎‏‎‎‏‎"</string><string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‎‏‏‎‎‎‏‏‏‎‎‏‏‏‎‎‎‏‎‎‏‏‏‎‏‎‎‏‏‎‎‏‎‎‏‎‏‎‏‎‎‎‏‏‏‎‏‎‎‎‏‏‎‏‎‎‎‏‎‎‏‏‎‎More options‎‏‎‎‏‎"</string><string msgid="4076576682505996667" name="abc_action_mode_done">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‎‏‏‏‎‎‎‏‎‎‏‎‎‏‎‏‏‏‎‏‎‎‎‏‏‏‎‎‏‎‎‏‏‏‎‎‏‎‎‎‏‏‎‏‎‎‏‎‎‎‎‏‎‎‏‎‏‏‏‏‎‏‏‎Done‎‏‎‎‏‎"</string><string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‏‏‏‎‎‏‏‏‏‎‏‎‎‏‏‎‏‎‏‏‎‏‏‏‏‏‎‎‏‏‏‎‎‏‏‏‏‎‏‎‎‏‎‎‎‎‏‏‎‎‎‎‏‏‎‏‎‎‏‏‏‏‎‏‎See all‎‏‎‎‏‎"</string><string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‎‏‏‏‏‎‎‎‎‏‏‎‎‏‎‎‏‏‏‎‎‎‏‏‏‏‏‏‎‎‎‏‎‎‏‎‏‎‎‎‏‏‎‏‎‏‏‎‎‏‏‏‏‏‎‏‎‎‏‏‏‏‎‎Choose an app‎‏‎‎‏‎"</string><string msgid="121134116657445385" name="abc_capital_off">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‎‎‏‏‏‎‏‎‏‏‏‎‎‏‎‏‏‎‏‎‏‏‎‏‎‏‏‎‎‏‎‏‏‎‎‏‏‎‎‎‏‏‎‎‎‎‏‏‏‎‏‎‎‎‎‎‏‎‎‏‎OFF‎‏‎‎‏‎"</string><string msgid="3405795526292276155" name="abc_capital_on">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‎‏‎‏‏‏‏‎‏‎‎‎‎‏‏‏‏‎‏‎‎‎‎‏‏‏‏‏‏‎‎‏‎‎‎‏‎‏‎‎‏‎‎‎‏‎‎‎‎‎‎‎‎‏‏‏‎‏‏‏‎‏‏‎ON‎‏‎‎‏‎"</string><string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‎‏‏‎‎‏‎‎‎‎‏‎‎‏‎‏‎‏‎‎‎‎‏‎‎‏‎‏‎‎‏‏‏‏‏‏‎‏‏‏‎‎‎‎‏‏‏‎‏‎‎‎‏‎‏‏‏‎‏‏‏‏‏‎Alt+‎‏‎‎‏‎"</string><string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‎‏‏‎‎‏‎‎‏‏‎‎‎‏‎‏‎‏‏‏‏‏‏‎‏‎‎‎‏‎‎‏‎‏‏‎‎‎‎‎‏‏‏‏‏‏‏‏‏‎‏‎‎‏‏‏‎‎‏‎‎‎‎‎Ctrl+‎‏‎‎‏‎"</string><string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‏‏‏‏‎‏‎‎‎‎‎‎‏‏‎‎‏‎‎‎‎‏‏‎‎‎‎‏‏‏‎‎‎‏‎‎‏‏‎‎‏‏‏‏‏‏‎‎‏‏‎‏‏‎‎‎‎‎‎‎‎‏‏‎‎delete‎‏‎‎‏‎"</string><string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‏‏‏‏‎‎‏‏‏‏‎‎‎‎‎‏‏‏‎‏‎‎‏‏‎‏‏‎‎‎‎‎‎‎‏‏‏‏‏‏‎‎‏‎‎‏‏‏‏‎‎‏‎‏‏‎‎‎‎‏‏‏‎‎‎enter‎‏‎‎‏‎"</string><string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‏‏‎‎‎‎‏‎‏‎‎‎‎‎‏‎‎‎‎‏‏‏‏‎‎‎‏‎‎‎‏‏‏‎‏‎‎‎‎‎‏‏‎‏‏‏‎‎‏‏‎‏‏‎‎‎‎‏‎‏‎‎‏‏‎Function+‎‏‎‎‏‎"</string><string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‏‏‏‎‏‎‏‎‎‎‎‏‎‎‏‏‎‏‎‎‏‎‏‏‎‏‎‎‎‎‎‏‏‎‎‎‎‎‎‏‏‎‎‏‎‏‎‎‏‏‎‎‎‎‏‏‎‏‎‏‎‏‎‏‎Meta+‎‏‎‎‏‎"</string><string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‏‏‏‏‎‎‎‎‏‏‎‎‎‏‏‎‎‏‏‎‎‏‏‏‎‏‎‎‏‏‎‎‎‎‎‏‏‎‏‎‏‏‎‎‎‎‎‎‎‎‏‎‎‏‎‎‎‏‏‏‎‏‎‎‎Shift+‎‏‎‎‏‎"</string><string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‎‏‎‎‎‎‏‎‎‎‎‎‎‏‎‎‏‎‎‏‏‏‏‎‏‏‎‎‎‏‏‏‏‎‏‏‏‏‎‎‎‏‏‏‏‎‏‏‎‏‎‏‏‎‏‏‏‏‎‏‎‏‎‎space‎‏‎‎‏‎"</string><string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‏‏‏‏‏‏‎‎‏‏‏‎‏‏‏‏‏‎‏‎‏‎‏‏‎‎‎‏‎‏‎‏‎‏‎‎‏‎‎‏‏‏‏‏‏‏‎‎‏‎‏‎‎‎‎‎‏‎‎‎‎‎‎‏‎Sym+‎‏‎‎‏‎"</string><string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‎‏‏‎‎‏‎‏‏‎‎‎‎‏‎‎‏‏‎‏‏‎‏‎‎‏‏‎‏‎‏‏‏‎‏‎‎‏‏‏‏‏‏‎‎‏‎‏‎‏‎‎‎‎‏‏‎‎‎‏‏‎‏‎Menu+‎‏‎‎‏‎"</string><string msgid="7723749260725869598" name="abc_search_hint">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‏‏‏‎‏‎‏‏‎‎‏‏‎‎‎‎‎‏‎‎‎‏‎‏‎‎‎‎‎‏‏‏‏‏‎‎‏‎‏‏‏‏‎‎‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‎Search…‎‏‎‎‏‎"</string><string msgid="3691816814315814921" name="abc_searchview_description_clear">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‎‏‏‎‎‏‏‎‎‏‏‏‎‏‏‏‏‏‏‎‏‏‏‏‏‎‏‎‏‎‏‎‎‏‎‎‎‎‏‎‎‎‏‏‎‏‏‏‏‎‎‎‎‎‎‎‎‎‎‏‎‎‏‎Clear query‎‏‎‎‏‎"</string><string msgid="2550479030709304392" name="abc_searchview_description_query">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‎‏‎‎‎‏‏‎‏‏‎‎‏‎‏‎‎‎‏‏‏‏‏‎‎‏‎‏‎‏‎‎‏‎‏‏‎‎‎‏‎‎‎‎‎‏‎‏‎‏‏‏‏‎‎‎‏‎‎‏‎‎‎‎Search query‎‏‎‎‏‎"</string><string msgid="8264924765203268293" name="abc_searchview_description_search">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‏‏‏‏‎‎‏‎‏‎‏‏‎‎‏‎‏‏‏‎‏‎‎‏‎‏‎‎‏‎‎‎‏‏‎‏‎‏‎‏‎‏‎‎‎‏‎‏‎‎‎‎‎‎‏‎‏‏‎‎‎‏‎‏‎Search‎‏‎‎‏‎"</string><string msgid="8928215447528550784" name="abc_searchview_description_submit">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‏‏‏‏‏‎‏‏‏‏‏‎‎‏‏‏‎‏‏‎‎‏‎‎‏‎‏‎‎‏‎‏‎‏‎‏‎‏‎‎‎‎‎‏‏‎‎‎‎‎‏‏‎‎‎‏‏‎‎‎‎‎‎‎‎Submit query‎‏‎‎‏‎"</string><string msgid="893419373245838918" name="abc_searchview_description_voice">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‎‎‏‏‎‎‎‏‏‎‎‏‏‎‎‎‎‏‎‎‎‎‎‎‏‎‏‏‏‏‏‎‏‏‏‎‎‏‏‏‎‎‎‏‎‏‎‎‏‏‎‏‏‎‎‏‎‎‎‏‏‎‎Voice search‎‏‎‎‏‎"</string><string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‎‏‎‏‏‏‏‎‏‏‏‏‎‎‏‏‏‏‏‏‎‏‏‏‏‎‏‎‎‎‏‎‏‎‏‏‏‎‎‏‏‎‎‎‎‎‏‎‏‎‏‎‏‏‎‏‎‏‏‎‏‎‎‎Share with‎‏‎‎‏‎"</string><string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‏‎‏‎‏‏‎‏‏‏‎‎‏‏‎‎‏‎‎‏‎‏‎‏‎‏‎‏‏‎‎‎‎‎‎‎‎‏‎‏‎‏‎‏‎‏‎‎‏‎‏‏‏‏‏‎‏‎‏‎‎‏‏‏‎Share with ‎‏‎‎‏‏‎<ns1:g id="APPLICATION_NAME">%s</ns1:g>‎‏‎‎‏‏‏‎‎‏‎‎‏‎"</string><string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‏‎‏‏‎‏‏‎‎‏‎‎‎‎‎‎‏‏‏‎‏‏‏‎‎‎‎‏‏‏‎‏‏‏‎‎‎‏‏‏‎‎‎‏‏‎‎‏‏‎‏‏‏‏‏‎‏‏‎‏‏‏‎‏‎Collapse‎‏‎‎‏‎"</string><string msgid="146198913615257606" name="search_menu_title">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‎‎‏‎‎‎‎‏‏‏‏‎‏‎‏‎‎‎‎‎‎‏‏‏‎‏‏‎‎‏‏‏‎‎‏‎‎‎‏‏‎‎‏‎‏‎‎‎‏‎‎‏‎‏‎‏‏‏‏‎‎‎‎‎‎‎‎‎‎‏‏‎‎Search‎‏‎‎‏‎"</string></file><file path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/values-sw/values-sw.xml" qualifiers="sw"><string msgid="7903180715631665059" name="abc_action_bar_home_description">"Nenda mwanzo"</string><string msgid="6794660482873516081" name="abc_action_bar_up_description">"Sogeza juu"</string><string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Chaguo zaidi"</string><string msgid="2571498368472823490" name="abc_action_mode_done">"Nimemaliza"</string><string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Angalia zote"</string><string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Chagua programu"</string><string msgid="3403923230105792483" name="abc_capital_off">"IMEZIMWA"</string><string msgid="7831734969929204599" name="abc_capital_on">"IMEWASHWA"</string><string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string><string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string><string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"delete"</string><string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"enter"</string><string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Function+"</string><string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string><string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Shift+"</string><string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"space"</string><string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string><string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Menu+"</string><string msgid="940844115270746197" name="abc_search_hint">"Tafuta…"</string><string msgid="1769270744562318534" name="abc_searchview_description_clear">"Futa hoja"</string><string msgid="908784302972860853" name="abc_searchview_description_query">"Hoja ya utafutaji"</string><string msgid="5466662225065974044" name="abc_searchview_description_search">"Tafuta"</string><string msgid="8203855622131699655" name="abc_searchview_description_submit">"Wasilisha hoja"</string><string msgid="3478748990613108725" name="abc_searchview_description_voice">"Kutafuta kwa kutamka"</string><string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Shiriki na"</string><string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Shiriki ukitumia <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string><string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Kunja"</string><string msgid="730395136688082741" name="search_menu_title">"Tafuta"</string></file><file path="/home/lucius/.gradle/caches/transforms-2/files-2.1/f08fc1bb6f741385d855837055afc94a/res/values-hdpi-v4/values-hdpi-v4.xml" qualifiers="hdpi-v4"><style name="Base.Widget.AppCompat.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle.Common">
           <item name="barLength">18.66dp</item>
           <item name="gapBetweenBars">3.33dp</item>
@@ -1381,21 +1381,21 @@
         
         <attr name="navigationMode">
             
-            <enum name="normal" value="0"/>
+            <enum name="normal" bitMapValue="0"/>
             
-            <enum name="listMode" value="1"/>
+            <enum name="listMode" bitMapValue="1"/>
             
-            <enum name="tabMode" value="2"/>
+            <enum name="tabMode" bitMapValue="2"/>
         </attr>
         
         <attr name="displayOptions">
-            <flag name="none" value="0"/>
-            <flag name="useLogo" value="0x1"/>
-            <flag name="showHome" value="0x2"/>
-            <flag name="homeAsUp" value="0x4"/>
-            <flag name="showTitle" value="0x8"/>
-            <flag name="showCustom" value="0x10"/>
-            <flag name="disableHome" value="0x20"/>
+            <flag name="none" bitMapValue="0"/>
+            <flag name="useLogo" bitMapValue="0x1"/>
+            <flag name="showHome" bitMapValue="0x2"/>
+            <flag name="homeAsUp" bitMapValue="0x4"/>
+            <flag name="showTitle" bitMapValue="0x8"/>
+            <flag name="showCustom" bitMapValue="0x10"/>
+            <flag name="disableHome" bitMapValue="0x20"/>
         </attr>
         
         <attr name="title"/>
@@ -1495,17 +1495,17 @@
         
         <attr name="tintMode">
             
-            <enum name="src_over" value="3"/>
+            <enum name="src_over" bitMapValue="3"/>
             
-            <enum name="src_in" value="5"/>
+            <enum name="src_in" bitMapValue="5"/>
             
-            <enum name="src_atop" value="9"/>
+            <enum name="src_atop" bitMapValue="9"/>
             
-            <enum name="multiply" value="14"/>
+            <enum name="multiply" bitMapValue="14"/>
             
-            <enum name="screen" value="15"/>
+            <enum name="screen" bitMapValue="15"/>
             
-            <enum name="add" value="16"/>
+            <enum name="add" bitMapValue="16"/>
         </attr>
     </declare-styleable><declare-styleable name="AppCompatSeekBar">
         <attr name="android:thumb"/>
@@ -1516,17 +1516,17 @@
         
         <attr name="tickMarkTintMode">
             
-            <enum name="src_over" value="3"/>
+            <enum name="src_over" bitMapValue="3"/>
             
-            <enum name="src_in" value="5"/>
+            <enum name="src_in" bitMapValue="5"/>
             
-            <enum name="src_atop" value="9"/>
+            <enum name="src_atop" bitMapValue="9"/>
             
-            <enum name="multiply" value="14"/>
+            <enum name="multiply" bitMapValue="14"/>
             
-            <enum name="screen" value="15"/>
+            <enum name="screen" bitMapValue="15"/>
             
-            <enum name="add" value="16"/>
+            <enum name="add" bitMapValue="16"/>
         </attr>
     </declare-styleable><declare-styleable name="AppCompatTextHelper">
         <attr name="android:drawableLeft"/>
@@ -1545,9 +1545,9 @@
         
         <attr format="enum" name="autoSizeTextType">
             
-            <enum name="none" value="0"/>
+            <enum name="none" bitMapValue="0"/>
             
-            <enum name="uniform" value="1"/>
+            <enum name="uniform" bitMapValue="1"/>
         </attr>
         
         <attr format="dimension" name="autoSizeStepGranularity"/>
@@ -1579,17 +1579,17 @@
         
         <attr name="drawableTintMode">
             
-            <enum name="src_over" value="3"/>
+            <enum name="src_over" bitMapValue="3"/>
             
-            <enum name="src_in" value="5"/>
+            <enum name="src_in" bitMapValue="5"/>
             
-            <enum name="src_atop" value="9"/>
+            <enum name="src_atop" bitMapValue="9"/>
             
-            <enum name="multiply" value="14"/>
+            <enum name="multiply" bitMapValue="14"/>
             
-            <enum name="screen" value="15"/>
+            <enum name="screen" bitMapValue="15"/>
             
-            <enum name="add" value="16"/>
+            <enum name="add" bitMapValue="16"/>
         </attr>
     </declare-styleable><declare-styleable name="AppCompatTheme">
 
@@ -1650,7 +1650,7 @@
         <attr format="reference" name="actionBarWidgetTheme"/>
         
         <attr format="dimension" name="actionBarSize">
-            <enum name="wrap_content" value="0"/>
+            <enum name="wrap_content" bitMapValue="0"/>
         </attr>
         
         <attr format="reference" name="actionBarDivider"/>
@@ -1962,17 +1962,17 @@
         
         <attr name="buttonTintMode">
             
-            <enum name="src_over" value="3"/>
+            <enum name="src_over" bitMapValue="3"/>
             
-            <enum name="src_in" value="5"/>
+            <enum name="src_in" bitMapValue="5"/>
             
-            <enum name="src_atop" value="9"/>
+            <enum name="src_atop" bitMapValue="9"/>
             
-            <enum name="multiply" value="14"/>
+            <enum name="multiply" bitMapValue="14"/>
             
-            <enum name="screen" value="15"/>
+            <enum name="screen" bitMapValue="15"/>
             
-            <enum name="add" value="16"/>
+            <enum name="add" bitMapValue="16"/>
         </attr>
     </declare-styleable><declare-styleable name="DrawerArrowToggle">
         
@@ -2007,10 +2007,10 @@
         <attr name="divider"/>
         
         <attr name="showDividers">
-            <flag name="none" value="0"/>
-            <flag name="beginning" value="1"/>
-            <flag name="middle" value="2"/>
-            <flag name="end" value="4"/>
+            <flag name="none" bitMapValue="0"/>
+            <flag name="beginning" bitMapValue="1"/>
+            <flag name="middle" bitMapValue="2"/>
+            <flag name="end" bitMapValue="4"/>
         </attr>
         
         <attr format="dimension" name="dividerPadding"/>
@@ -2069,12 +2069,12 @@
 
         
         <attr name="alphabeticModifiers">
-            <flag name="META" value="0x10000"/>
-            <flag name="CTRL" value="0x1000"/>
-            <flag name="ALT" value="0x02"/>
-            <flag name="SHIFT" value="0x1"/>
-            <flag name="SYM" value="0x4"/>
-            <flag name="FUNCTION" value="0x8"/>
+            <flag name="META" bitMapValue="0x10000"/>
+            <flag name="CTRL" bitMapValue="0x1000"/>
+            <flag name="ALT" bitMapValue="0x02"/>
+            <flag name="SHIFT" bitMapValue="0x1"/>
+            <flag name="SYM" bitMapValue="0x4"/>
+            <flag name="FUNCTION" bitMapValue="0x8"/>
         </attr>
 
         
@@ -2082,12 +2082,12 @@
 
         
         <attr name="numericModifiers">
-            <flag name="META" value="0x10000"/>
-            <flag name="CTRL" value="0x1000"/>
-            <flag name="ALT" value="0x02"/>
-            <flag name="SHIFT" value="0x1"/>
-            <flag name="SYM" value="0x4"/>
-            <flag name="FUNCTION" value="0x8"/>
+            <flag name="META" bitMapValue="0x10000"/>
+            <flag name="CTRL" bitMapValue="0x1000"/>
+            <flag name="ALT" bitMapValue="0x02"/>
+            <flag name="SHIFT" bitMapValue="0x1"/>
+            <flag name="SYM" bitMapValue="0x4"/>
+            <flag name="FUNCTION" bitMapValue="0x8"/>
         </attr>
 
         
@@ -2108,15 +2108,15 @@
         
         <attr name="showAsAction">
             
-            <flag name="never" value="0"/>
+            <flag name="never" bitMapValue="0"/>
             
-            <flag name="ifRoom" value="1"/>
+            <flag name="ifRoom" bitMapValue="1"/>
             
-            <flag name="always" value="2"/>
+            <flag name="always" bitMapValue="2"/>
             
-            <flag name="withText" value="4"/>
+            <flag name="withText" bitMapValue="4"/>
             
-            <flag name="collapseActionView" value="8"/>
+            <flag name="collapseActionView" bitMapValue="8"/>
         </attr>
 
         
@@ -2140,17 +2140,17 @@
         
         <attr name="iconTintMode">
             
-            <enum name="src_over" value="3"/>
+            <enum name="src_over" bitMapValue="3"/>
             
-            <enum name="src_in" value="5"/>
+            <enum name="src_in" bitMapValue="5"/>
             
-            <enum name="src_atop" value="9"/>
+            <enum name="src_atop" bitMapValue="9"/>
             
-            <enum name="multiply" value="14"/>
+            <enum name="multiply" bitMapValue="14"/>
             
-            <enum name="screen" value="15"/>
+            <enum name="screen" bitMapValue="15"/>
             
-            <enum name="add" value="16"/>
+            <enum name="add" bitMapValue="16"/>
         </attr>
 
     </declare-styleable><declare-styleable name="MenuView">
@@ -2238,17 +2238,17 @@
         
         <attr name="thumbTintMode">
             
-            <enum name="src_over" value="3"/>
+            <enum name="src_over" bitMapValue="3"/>
             
-            <enum name="src_in" value="5"/>
+            <enum name="src_in" bitMapValue="5"/>
             
-            <enum name="src_atop" value="9"/>
+            <enum name="src_atop" bitMapValue="9"/>
             
-            <enum name="multiply" value="14"/>
+            <enum name="multiply" bitMapValue="14"/>
             
-            <enum name="screen" value="15"/>
+            <enum name="screen" bitMapValue="15"/>
             
-            <enum name="add" value="16"/>
+            <enum name="add" bitMapValue="16"/>
         </attr>
         
         <attr format="reference" name="track"/>
@@ -2257,17 +2257,17 @@
         
         <attr name="trackTintMode">
             
-            <enum name="src_over" value="3"/>
+            <enum name="src_over" bitMapValue="3"/>
             
-            <enum name="src_in" value="5"/>
+            <enum name="src_in" bitMapValue="5"/>
             
-            <enum name="src_atop" value="9"/>
+            <enum name="src_atop" bitMapValue="9"/>
             
-            <enum name="multiply" value="14"/>
+            <enum name="multiply" bitMapValue="14"/>
             
-            <enum name="screen" value="15"/>
+            <enum name="screen" bitMapValue="15"/>
             
-            <enum name="add" value="16"/>
+            <enum name="add" bitMapValue="16"/>
         </attr>
         
         <attr name="android:textOn"/>
@@ -2331,11 +2331,11 @@
         <attr format="dimension" name="maxButtonHeight"/>
         <attr name="buttonGravity">
             
-            <flag name="center_vertical" value="0x10"/>
+            <flag name="center_vertical" bitMapValue="0x10"/>
             
-            <flag name="top" value="0x30"/>
+            <flag name="top" bitMapValue="0x30"/>
             
-            <flag name="bottom" value="0x50"/>
+            <flag name="bottom" bitMapValue="0x50"/>
         </attr>
         
         <attr format="reference" name="collapseIcon"/>
@@ -2377,17 +2377,17 @@
         
         <attr name="backgroundTintMode">
             
-            <enum name="src_over" value="3"/>
+            <enum name="src_over" bitMapValue="3"/>
             
-            <enum name="src_in" value="5"/>
+            <enum name="src_in" bitMapValue="5"/>
             
-            <enum name="src_atop" value="9"/>
+            <enum name="src_atop" bitMapValue="9"/>
             
-            <enum name="multiply" value="14"/>
+            <enum name="multiply" bitMapValue="14"/>
             
-            <enum name="screen" value="15"/>
+            <enum name="screen" bitMapValue="15"/>
             
-            <enum name="add" value="16"/>
+            <enum name="add" bitMapValue="16"/>
         </attr>
     </declare-styleable><declare-styleable name="ViewStubCompat">
         
@@ -2703,17 +2703,17 @@
         
         <attr name="tickMarkTintMode">
             
-            <enum name="src_over" value="3"/>
+            <enum name="src_over" bitMapValue="3"/>
             
-            <enum name="src_in" value="5"/>
+            <enum name="src_in" bitMapValue="5"/>
             
-            <enum name="src_atop" value="9"/>
+            <enum name="src_atop" bitMapValue="9"/>
             
-            <enum name="multiply" value="14"/>
+            <enum name="multiply" bitMapValue="14"/>
             
-            <enum name="screen" value="15"/>
+            <enum name="screen" bitMapValue="15"/>
             
-            <enum name="add" value="16"/>
+            <enum name="add" bitMapValue="16"/>
         </attr>
     </declare-styleable><declare-styleable name="GradientColor">
         
@@ -2892,7 +2892,7 @@
         <attr format="reference" name="actionBarWidgetTheme"/>
         
         <attr format="dimension" name="actionBarSize">
-            <enum name="wrap_content" value="0"/>
+            <enum name="wrap_content" bitMapValue="0"/>
         </attr>
         
         <attr format="reference" name="actionBarDivider"/>
@@ -3249,21 +3249,21 @@
         
         <attr name="navigationMode">
             
-            <enum name="normal" value="0"/>
+            <enum name="normal" bitMapValue="0"/>
             
-            <enum name="listMode" value="1"/>
+            <enum name="listMode" bitMapValue="1"/>
             
-            <enum name="tabMode" value="2"/>
+            <enum name="tabMode" bitMapValue="2"/>
         </attr>
         
         <attr name="displayOptions">
-            <flag name="none" value="0"/>
-            <flag name="useLogo" value="0x1"/>
-            <flag name="showHome" value="0x2"/>
-            <flag name="homeAsUp" value="0x4"/>
-            <flag name="showTitle" value="0x8"/>
-            <flag name="showCustom" value="0x10"/>
-            <flag name="disableHome" value="0x20"/>
+            <flag name="none" bitMapValue="0"/>
+            <flag name="useLogo" bitMapValue="0x1"/>
+            <flag name="showHome" bitMapValue="0x2"/>
+            <flag name="homeAsUp" bitMapValue="0x4"/>
+            <flag name="showTitle" bitMapValue="0x8"/>
+            <flag name="showCustom" bitMapValue="0x10"/>
+            <flag name="disableHome" bitMapValue="0x20"/>
         </attr>
         
         <attr name="title"/>
@@ -3368,11 +3368,11 @@
         <attr format="dimension" name="maxButtonHeight"/>
         <attr name="buttonGravity">
             
-            <flag name="center_vertical" value="0x10"/>
+            <flag name="center_vertical" bitMapValue="0x10"/>
             
-            <flag name="top" value="0x30"/>
+            <flag name="top" bitMapValue="0x30"/>
             
-            <flag name="bottom" value="0x50"/>
+            <flag name="bottom" bitMapValue="0x50"/>
         </attr>
         
         <attr format="reference" name="collapseIcon"/>
@@ -3412,14 +3412,14 @@
         
         <attr name="fontProviderFetchStrategy">
             
-            <enum name="blocking" value="0"/>
+            <enum name="blocking" bitMapValue="0"/>
             
-            <enum name="async" value="1"/>
+            <enum name="async" bitMapValue="1"/>
         </attr>
         
         <attr format="integer" name="fontProviderFetchTimeout">
             
-            <enum name="forever" value="-1"/>
+            <enum name="forever" bitMapValue="-1"/>
         </attr>
     </declare-styleable><declare-styleable name="StateListDrawableItem">
         
@@ -3433,9 +3433,9 @@
         
         <attr format="enum" name="autoSizeTextType">
             
-            <enum name="none" value="0"/>
+            <enum name="none" bitMapValue="0"/>
             
-            <enum name="uniform" value="1"/>
+            <enum name="uniform" bitMapValue="1"/>
         </attr>
         
         <attr format="dimension" name="autoSizeStepGranularity"/>
@@ -3467,17 +3467,17 @@
         
         <attr name="drawableTintMode">
             
-            <enum name="src_over" value="3"/>
+            <enum name="src_over" bitMapValue="3"/>
             
-            <enum name="src_in" value="5"/>
+            <enum name="src_in" bitMapValue="5"/>
             
-            <enum name="src_atop" value="9"/>
+            <enum name="src_atop" bitMapValue="9"/>
             
-            <enum name="multiply" value="14"/>
+            <enum name="multiply" bitMapValue="14"/>
             
-            <enum name="screen" value="15"/>
+            <enum name="screen" bitMapValue="15"/>
             
-            <enum name="add" value="16"/>
+            <enum name="add" bitMapValue="16"/>
         </attr>
     </declare-styleable><declare-styleable name="MenuItem">
 
@@ -3504,12 +3504,12 @@
 
         
         <attr name="alphabeticModifiers">
-            <flag name="META" value="0x10000"/>
-            <flag name="CTRL" value="0x1000"/>
-            <flag name="ALT" value="0x02"/>
-            <flag name="SHIFT" value="0x1"/>
-            <flag name="SYM" value="0x4"/>
-            <flag name="FUNCTION" value="0x8"/>
+            <flag name="META" bitMapValue="0x10000"/>
+            <flag name="CTRL" bitMapValue="0x1000"/>
+            <flag name="ALT" bitMapValue="0x02"/>
+            <flag name="SHIFT" bitMapValue="0x1"/>
+            <flag name="SYM" bitMapValue="0x4"/>
+            <flag name="FUNCTION" bitMapValue="0x8"/>
         </attr>
 
         
@@ -3517,12 +3517,12 @@
 
         
         <attr name="numericModifiers">
-            <flag name="META" value="0x10000"/>
-            <flag name="CTRL" value="0x1000"/>
-            <flag name="ALT" value="0x02"/>
-            <flag name="SHIFT" value="0x1"/>
-            <flag name="SYM" value="0x4"/>
-            <flag name="FUNCTION" value="0x8"/>
+            <flag name="META" bitMapValue="0x10000"/>
+            <flag name="CTRL" bitMapValue="0x1000"/>
+            <flag name="ALT" bitMapValue="0x02"/>
+            <flag name="SHIFT" bitMapValue="0x1"/>
+            <flag name="SYM" bitMapValue="0x4"/>
+            <flag name="FUNCTION" bitMapValue="0x8"/>
         </attr>
 
         
@@ -3543,15 +3543,15 @@
         
         <attr name="showAsAction">
             
-            <flag name="never" value="0"/>
+            <flag name="never" bitMapValue="0"/>
             
-            <flag name="ifRoom" value="1"/>
+            <flag name="ifRoom" bitMapValue="1"/>
             
-            <flag name="always" value="2"/>
+            <flag name="always" bitMapValue="2"/>
             
-            <flag name="withText" value="4"/>
+            <flag name="withText" bitMapValue="4"/>
             
-            <flag name="collapseActionView" value="8"/>
+            <flag name="collapseActionView" bitMapValue="8"/>
         </attr>
 
         
@@ -3575,17 +3575,17 @@
         
         <attr name="iconTintMode">
             
-            <enum name="src_over" value="3"/>
+            <enum name="src_over" bitMapValue="3"/>
             
-            <enum name="src_in" value="5"/>
+            <enum name="src_in" bitMapValue="5"/>
             
-            <enum name="src_atop" value="9"/>
+            <enum name="src_atop" bitMapValue="9"/>
             
-            <enum name="multiply" value="14"/>
+            <enum name="multiply" bitMapValue="14"/>
             
-            <enum name="screen" value="15"/>
+            <enum name="screen" bitMapValue="15"/>
             
-            <enum name="add" value="16"/>
+            <enum name="add" bitMapValue="16"/>
         </attr>
 
     </declare-styleable><declare-styleable name="ButtonBarLayout">
@@ -3599,17 +3599,17 @@
         
         <attr name="backgroundTintMode">
             
-            <enum name="src_over" value="3"/>
+            <enum name="src_over" bitMapValue="3"/>
             
-            <enum name="src_in" value="5"/>
+            <enum name="src_in" bitMapValue="5"/>
             
-            <enum name="src_atop" value="9"/>
+            <enum name="src_atop" bitMapValue="9"/>
             
-            <enum name="multiply" value="14"/>
+            <enum name="multiply" bitMapValue="14"/>
             
-            <enum name="screen" value="15"/>
+            <enum name="screen" bitMapValue="15"/>
             
-            <enum name="add" value="16"/>
+            <enum name="add" bitMapValue="16"/>
         </attr>
     </declare-styleable><declare-styleable name="AnimatedStateListDrawableTransition">
         
@@ -3631,17 +3631,17 @@
         
         <attr name="tintMode">
             
-            <enum name="src_over" value="3"/>
+            <enum name="src_over" bitMapValue="3"/>
             
-            <enum name="src_in" value="5"/>
+            <enum name="src_in" bitMapValue="5"/>
             
-            <enum name="src_atop" value="9"/>
+            <enum name="src_atop" bitMapValue="9"/>
             
-            <enum name="multiply" value="14"/>
+            <enum name="multiply" bitMapValue="14"/>
             
-            <enum name="screen" value="15"/>
+            <enum name="screen" bitMapValue="15"/>
             
-            <enum name="add" value="16"/>
+            <enum name="add" bitMapValue="16"/>
         </attr>
     </declare-styleable><declare-styleable name="View">
         
@@ -3660,8 +3660,8 @@
     </declare-styleable><declare-styleable name="FontFamilyFont">
         
         <attr name="fontStyle">
-            <enum name="normal" value="0"/>
-            <enum name="italic" value="1"/>
+            <enum name="normal" bitMapValue="0"/>
+            <enum name="italic" bitMapValue="1"/>
         </attr>
         
         <attr format="reference" name="font"/>
@@ -3693,10 +3693,10 @@
         <attr name="divider"/>
         
         <attr name="showDividers">
-            <flag name="none" value="0"/>
-            <flag name="beginning" value="1"/>
-            <flag name="middle" value="2"/>
-            <flag name="end" value="4"/>
+            <flag name="none" bitMapValue="0"/>
+            <flag name="beginning" bitMapValue="1"/>
+            <flag name="middle" bitMapValue="2"/>
+            <flag name="end" bitMapValue="4"/>
         </attr>
         
         <attr format="dimension" name="dividerPadding"/>
@@ -3759,17 +3759,17 @@
         
         <attr name="buttonTintMode">
             
-            <enum name="src_over" value="3"/>
+            <enum name="src_over" bitMapValue="3"/>
             
-            <enum name="src_in" value="5"/>
+            <enum name="src_in" bitMapValue="5"/>
             
-            <enum name="src_atop" value="9"/>
+            <enum name="src_atop" bitMapValue="9"/>
             
-            <enum name="multiply" value="14"/>
+            <enum name="multiply" bitMapValue="14"/>
             
-            <enum name="screen" value="15"/>
+            <enum name="screen" bitMapValue="15"/>
             
-            <enum name="add" value="16"/>
+            <enum name="add" bitMapValue="16"/>
         </attr>
     </declare-styleable><declare-styleable name="SwitchCompat">
         
@@ -3779,17 +3779,17 @@
         
         <attr name="thumbTintMode">
             
-            <enum name="src_over" value="3"/>
+            <enum name="src_over" bitMapValue="3"/>
             
-            <enum name="src_in" value="5"/>
+            <enum name="src_in" bitMapValue="5"/>
             
-            <enum name="src_atop" value="9"/>
+            <enum name="src_atop" bitMapValue="9"/>
             
-            <enum name="multiply" value="14"/>
+            <enum name="multiply" bitMapValue="14"/>
             
-            <enum name="screen" value="15"/>
+            <enum name="screen" bitMapValue="15"/>
             
-            <enum name="add" value="16"/>
+            <enum name="add" bitMapValue="16"/>
         </attr>
         
         <attr format="reference" name="track"/>
@@ -3798,17 +3798,17 @@
         
         <attr name="trackTintMode">
             
-            <enum name="src_over" value="3"/>
+            <enum name="src_over" bitMapValue="3"/>
             
-            <enum name="src_in" value="5"/>
+            <enum name="src_in" bitMapValue="5"/>
             
-            <enum name="src_atop" value="9"/>
+            <enum name="src_atop" bitMapValue="9"/>
             
-            <enum name="multiply" value="14"/>
+            <enum name="multiply" bitMapValue="14"/>
             
-            <enum name="screen" value="15"/>
+            <enum name="screen" bitMapValue="15"/>
             
-            <enum name="add" value="16"/>
+            <enum name="add" bitMapValue="16"/>
         </attr>
         
         <attr name="android:textOn"/>

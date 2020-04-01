@@ -1,1 +1,1 @@
-include ':app', ':AspectJLib', ':BaseLib', ':UtilsLib', ':blemodule',  ':JavaTestLIb', ':daggerlib', ':annotation', ':compiler', ':Jpapmodule', ':multilanguage'
+include ':app', ':AspectJLib', ':BaseLib', ':UtilsLib', ':blemodule',  ':JavaTestLIb', ':daggerlib', ':annotation', ':compiler', ':Jpapmodule', ':multilanguage', ':glidemodule'

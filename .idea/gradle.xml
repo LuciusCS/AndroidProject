@@ -20,6 +20,7 @@
             <option value="$PROJECT_DIR$/blemodule" />
             <option value="$PROJECT_DIR$/compiler" />
             <option value="$PROJECT_DIR$/daggerlib" />
+            <option value="$PROJECT_DIR$/glidemodule" />
             <option value="$PROJECT_DIR$/multilanguage" />
           </set>
         </option>
