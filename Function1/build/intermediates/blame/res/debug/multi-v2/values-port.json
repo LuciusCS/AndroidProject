@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "H:\\Project\\Github\\AndroidProject\\Function1\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Lucius\\.gradle\\caches\\transforms-2\\files-2.1\\1c6076eea1cd4d6f4b1c11ea412f48ea\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "H:\\Project\\Github\\AndroidProject\\Function1\\build\\intermediates\\res\\merged\\debug\\values-port\\values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Lucius\\.gradle\\caches\\transforms-2\\files-2.1\\1c6076eea1cd4d6f4b1c11ea412f48ea\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

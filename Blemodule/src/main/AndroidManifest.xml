@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="demo.lucius.blemodule">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.activity.TestLiveDataActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--添加所有的activity-->
+        <!--<activity android:name=".ui.activity.BleTaskTestActivity"/>-->
+        <activity android:name=".ui.activity.BleMultiTaskActivity"/>
+        <activity android:name=".ui.activity.BleScanActivity"/>
+
+        <activity android:name=".ui.activity.BleTaskActivity"/>
+        <!--用于表示已经操作的过的蓝牙的信息-->
+        <activity android:name=".ui.activity.BleInfoActivity"/>
+        <!--自动任务-->
+        <activity android:name=".ui.activity.BleAutoTaskActivity"/>
+        <!--添加所有的service-->
+        <service android:name=".module.service.BleService" />
+
+
+
+    </application>
+
+</manifest>
