@@ -9,8 +9,6 @@
 /build
 /captures
 .externalNativeBuild
-<<<<<<< HEAD
-Blemodule/
+
 blelib/
-=======
->>>>>>> 35e2b4b901f4e63b54abaafe55829d908c3b10af
+
