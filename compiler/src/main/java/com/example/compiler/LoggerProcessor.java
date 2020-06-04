@@ -22,6 +22,7 @@ import javax.annotation.processing.ProcessingEnvironment;
 import javax.annotation.processing.Processor;
 import javax.annotation.processing.RoundEnvironment;
 import javax.annotation.processing.SupportedAnnotationTypes;
+import javax.annotation.processing.SupportedOptions;
 import javax.annotation.processing.SupportedSourceVersion;
 import javax.lang.model.SourceVersion;
 import javax.lang.model.element.Element;
@@ -34,14 +35,23 @@ import javax.tools.Diagnostic;
 
 
 
-//通过AutoService 注册自动生成处理的文件
+//AutoService是固定写法，加个注解即可
+//通过autos-service中的@AutoService可以自动申城AutoService注解处理器，用来注册
+//用来生成META-INF/services/javax.annotation.processing.Processor文件
+
+//通过AutoService注解，自动生成注解处理器，用来做注册，在对应的文件夹下生成相应文件
 @AutoService(Processor.class)
+//允许/支持的注解类型，让注解处理器处理
 @SupportedAnnotationTypes("com.example.annotation.Logger")
+//指定JDK编译版本
 @SupportedSourceVersion(SourceVersion.RELEASE_7)
+
+//接受build.gradle穿过来的参数
+@SupportedOptions("content")
 public class LoggerProcessor extends AbstractProcessor {
 
     //processor 运行在一个独立的JVM实例中，javac为我们的processor启动一个新的进程，要使我们的processor被javac检测到，
-    //需要使用ServiceLoader进行注册
+    //需要使用ServiceLoader进行注册，在本例中使用 com.google.auto.service 中的@AutoService 进行实现
 
     private static final String KEY_PATH_NAME="args";
 
@@ -63,6 +73,12 @@ public class LoggerProcessor extends AbstractProcessor {
         filer=processingEnvironment.getFiler();
     }
 
+    /***
+     * 注解处理器的核心方法，永不处理具体的注解，生成Java文件
+     * @param set               使用了支持处理注解的节点集合（类上面写了注解）
+     * @param roundEnvironment  当前或是之前的运行环境，可以通过该对象查找找到的注解
+     * @return true表示后续处理器不再会处理，false则会继续进行处理
+     */
     @Override
     public boolean process(Set<? extends TypeElement> set, RoundEnvironment roundEnvironment) {
         //获取所有被Logger注解的元素
@@ -79,7 +95,6 @@ public class LoggerProcessor extends AbstractProcessor {
                 System.out.println("++++");
                 writeSourceFile(typeElement);
             };
-
 
         }
 
@@ -122,7 +137,7 @@ public class LoggerProcessor extends AbstractProcessor {
                 //参数变量由注解的类决定
                 .addParameter(typeVariableName,KEY_PATH_NAME)
                 //创建一个 Log.d("className",String.format(class fields))
-                .addStatement("$T.d($S,$L)",logClassName,originatingType.getSimpleName().toString(),generateFormater(originatingType))
+                .addStatement("$T.d($S,$L)",logClassName,originatingType.getSimpleName().toString(), generateFormat(originatingType))
                 .build();
 
 
@@ -152,7 +167,7 @@ public class LoggerProcessor extends AbstractProcessor {
      */
 
 //    /**
-//     * 获取支持类的注解
+//     * 获取支持类的注解  在本例中使用 @SupportedAnnotationTypes()实现
 //     * @return
 //     */
 //    @Override
@@ -161,7 +176,7 @@ public class LoggerProcessor extends AbstractProcessor {
 //    }
 //
 //    /**
-//     * 通过某一JDK的版本进行编译，必填
+//     * 通过某一JDK的版本进行编译，必填 在本例中使用 @SupportedSourceVersion()注解实现
 //     * @return
 //     */
 //    @Override
@@ -170,7 +185,7 @@ public class LoggerProcessor extends AbstractProcessor {
 //    }
 //
 //    /**
-//     * 接受外部传来的属性
+//     * 接受外部传来的属性  在本例中是接受调用模块的gradle 中的参数；使用 @SupportedOptions（)注解实现
 //     * @return
 //     */
 //    @Override
@@ -178,7 +193,7 @@ public class LoggerProcessor extends AbstractProcessor {
 //        return super.getSupportedOptions();
 //    }
 
-    private String generateFormater(TypeElement originatingType){
+    private String generateFormat(TypeElement originatingType){
 
         List<VariableElement>fields=new ImmutableList.Builder<VariableElement>().addAll(ElementFilter.fieldsIn(originatingType.getEnclosedElements())).build();
 

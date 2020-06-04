@@ -1,0 +1,47 @@
+-- Merging decision tree log ---
+manifest
+ADDED from H:\Project\Github\AndroidProject\Function2\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from H:\Project\Github\AndroidProject\Function2\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from H:\Project\Github\AndroidProject\Function2\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from H:\Project\Github\AndroidProject\Function2\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from H:\Project\Github\AndroidProject\Function2\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from H:\Project\Github\AndroidProject\Function2\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from H:\Project\Github\AndroidProject\Function2\src\main\AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from H:\Project\Github\AndroidProject\Function2\src\main\AndroidManifest.xml:3:5-35
+		INJECTED from H:\Project\Github\AndroidProject\Function2\src\main\AndroidManifest.xml
+		INJECTED from H:\Project\Github\AndroidProject\Function2\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from H:\Project\Github\AndroidProject\Function2\src\main\AndroidManifest.xml
+		ADDED from H:\Project\Github\AndroidProject\Function2\src\main\AndroidManifest.xml:2:1-23:12
+		INJECTED from H:\Project\Github\AndroidProject\Function2\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from H:\Project\Github\AndroidProject\Function2\src\main\AndroidManifest.xml
+		ADDED from H:\Project\Github\AndroidProject\Function2\src\main\AndroidManifest.xml:2:1-23:12
+		INJECTED from H:\Project\Github\AndroidProject\Function2\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from H:\Project\Github\AndroidProject\Function2\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from H:\Project\Github\AndroidProject\Function2\src\main\AndroidManifest.xml:5:5-21:19
+activity#demo.lucius.funtion2.ui.activity.ActivityE
+ADDED from H:\Project\Github\AndroidProject\Function2\src\main\AndroidManifest.xml:19:9-58
+	android:name
+		ADDED from H:\Project\Github\AndroidProject\Function2\src\main\AndroidManifest.xml:19:19-56
+activity#demo.lucius.funtion2.ui.activity.ActivityF
+ADDED from H:\Project\Github\AndroidProject\Function2\src\main\AndroidManifest.xml:20:9-58
+	android:name
+		ADDED from H:\Project\Github\AndroidProject\Function2\src\main\AndroidManifest.xml:20:19-56
+uses-sdk
+INJECTED from H:\Project\Github\AndroidProject\Function2\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from H:\Project\Github\AndroidProject\Function2\src\main\AndroidManifest.xml
+INJECTED from H:\Project\Github\AndroidProject\Function2\src\main\AndroidManifest.xml
+INJECTED from H:\Project\Github\AndroidProject\Function2\src\main\AndroidManifest.xml
+INJECTED from H:\Project\Github\AndroidProject\Function2\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from H:\Project\Github\AndroidProject\Function2\src\main\AndroidManifest.xml
+		ADDED from H:\Project\Github\AndroidProject\Function2\src\main\AndroidManifest.xml
+		INJECTED from H:\Project\Github\AndroidProject\Function2\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from H:\Project\Github\AndroidProject\Function2\src\main\AndroidManifest.xml
+		ADDED from H:\Project\Github\AndroidProject\Function2\src\main\AndroidManifest.xml
+		INJECTED from H:\Project\Github\AndroidProject\Function2\src\main\AndroidManifest.xml

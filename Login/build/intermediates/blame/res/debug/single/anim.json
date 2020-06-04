@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "H:\\Project\\Github\\AndroidProject\\Login\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Lucius\\.gradle\\caches\\transforms-2\\files-2.1\\abbe48863baf0465cb09ad98f4a6c1d3\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "H:\\Project\\Github\\AndroidProject\\Login\\build\\intermediates\\res\\merged\\debug\\anim\\abc_tooltip_exit.xml",
+        "source": "C:\\Users\\Lucius\\.gradle\\caches\\transforms-2\\files-2.1\\abbe48863baf0465cb09ad98f4a6c1d3\\res\\anim\\abc_tooltip_exit.xml"
+    },
+    {
+        "merged": "H:\\Project\\Github\\AndroidProject\\Login\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Lucius\\.gradle\\caches\\transforms-2\\files-2.1\\abbe48863baf0465cb09ad98f4a6c1d3\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "H:\\Project\\Github\\AndroidProject\\Login\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Lucius\\.gradle\\caches\\transforms-2\\files-2.1\\abbe48863baf0465cb09ad98f4a6c1d3\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "H:\\Project\\Github\\AndroidProject\\Login\\build\\intermediates\\res\\merged\\debug\\anim\\fragment_open_enter.xml",
+        "source": "C:\\Users\\Lucius\\.gradle\\caches\\transforms-2\\files-2.1\\078d62b11869055edc8dba99ba36bb5c\\res\\anim\\fragment_open_enter.xml"
+    },
+    {
+        "merged": "H:\\Project\\Github\\AndroidProject\\Login\\build\\intermediates\\res\\merged\\debug\\anim\\fragment_close_exit.xml",
+        "source": "C:\\Users\\Lucius\\.gradle\\caches\\transforms-2\\files-2.1\\078d62b11869055edc8dba99ba36bb5c\\res\\anim\\fragment_close_exit.xml"
+    },
+    {
+        "merged": "H:\\Project\\Github\\AndroidProject\\Login\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Lucius\\.gradle\\caches\\transforms-2\\files-2.1\\abbe48863baf0465cb09ad98f4a6c1d3\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "H:\\Project\\Github\\AndroidProject\\Login\\build\\intermediates\\res\\merged\\debug\\anim\\fragment_close_enter.xml",
+        "source": "C:\\Users\\Lucius\\.gradle\\caches\\transforms-2\\files-2.1\\078d62b11869055edc8dba99ba36bb5c\\res\\anim\\fragment_close_enter.xml"
+    },
+    {
+        "merged": "H:\\Project\\Github\\AndroidProject\\Login\\build\\intermediates\\res\\merged\\debug\\anim\\fragment_fade_enter.xml",
+        "source": "C:\\Users\\Lucius\\.gradle\\caches\\transforms-2\\files-2.1\\078d62b11869055edc8dba99ba36bb5c\\res\\anim\\fragment_fade_enter.xml"
+    },
+    {
+        "merged": "H:\\Project\\Github\\AndroidProject\\Login\\build\\intermediates\\res\\merged\\debug\\anim\\fragment_open_exit.xml",
+        "source": "C:\\Users\\Lucius\\.gradle\\caches\\transforms-2\\files-2.1\\078d62b11869055edc8dba99ba36bb5c\\res\\anim\\fragment_open_exit.xml"
+    },
+    {
+        "merged": "H:\\Project\\Github\\AndroidProject\\Login\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Lucius\\.gradle\\caches\\transforms-2\\files-2.1\\abbe48863baf0465cb09ad98f4a6c1d3\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "H:\\Project\\Github\\AndroidProject\\Login\\build\\intermediates\\res\\merged\\debug\\anim\\fragment_fade_exit.xml",
+        "source": "C:\\Users\\Lucius\\.gradle\\caches\\transforms-2\\files-2.1\\078d62b11869055edc8dba99ba36bb5c\\res\\anim\\fragment_fade_exit.xml"
+    },
+    {
+        "merged": "H:\\Project\\Github\\AndroidProject\\Login\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Lucius\\.gradle\\caches\\transforms-2\\files-2.1\\abbe48863baf0465cb09ad98f4a6c1d3\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "H:\\Project\\Github\\AndroidProject\\Login\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Lucius\\.gradle\\caches\\transforms-2\\files-2.1\\abbe48863baf0465cb09ad98f4a6c1d3\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "H:\\Project\\Github\\AndroidProject\\Login\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Lucius\\.gradle\\caches\\transforms-2\\files-2.1\\abbe48863baf0465cb09ad98f4a6c1d3\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "H:\\Project\\Github\\AndroidProject\\Login\\build\\intermediates\\res\\merged\\debug\\anim\\abc_tooltip_enter.xml",
+        "source": "C:\\Users\\Lucius\\.gradle\\caches\\transforms-2\\files-2.1\\abbe48863baf0465cb09ad98f4a6c1d3\\res\\anim\\abc_tooltip_enter.xml"
+    },
+    {
+        "merged": "H:\\Project\\Github\\AndroidProject\\Login\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Lucius\\.gradle\\caches\\transforms-2\\files-2.1\\abbe48863baf0465cb09ad98f4a6c1d3\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "H:\\Project\\Github\\AndroidProject\\Login\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Lucius\\.gradle\\caches\\transforms-2\\files-2.1\\abbe48863baf0465cb09ad98f4a6c1d3\\res\\anim\\abc_popup_enter.xml"
+    }
+]
