@@ -18,10 +18,10 @@
         </activity>
 
 
-        <meta-data
-            android:name="amp"
-            android:bitMapValue="${aMapId}"
-            />
+<!--        <meta-data-->
+<!--            android:name="amp"-->
+<!--            android:bitMapValue="${aMapId}"-->
+<!--            />-->
 
     </application>
 

@@ -80,7 +80,7 @@ android {
 //    引入JNI
     externalNativeBuild {
         cmake {
-            version "3.10.2"
+            version "3.18.1"
             path file('src/main/cpp/CMakeLists.txt')
         }
     }

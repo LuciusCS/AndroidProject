@@ -1,0 +1,3 @@
+/Users/eastsoft/Documents/Development/LuciusGithub/AndroidProject/BaseLib/.cxx/RelWithDebInfo/no5v5h5s/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/eastsoft/Documents/Development/LuciusGithub/AndroidProject/BaseLib/.cxx/RelWithDebInfo/no5v5h5s/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/eastsoft/Documents/Development/LuciusGithub/AndroidProject/BaseLib/.cxx/RelWithDebInfo/no5v5h5s/armeabi-v7a/CMakeFiles/native-lib.dir
